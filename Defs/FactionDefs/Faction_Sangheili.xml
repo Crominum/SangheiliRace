@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef>
+			<defName>SwagheiliFaction</defName>
+			<label>Sangheili Tribe</label>
+		<description>A developed colony collectively owned by the Sangheili race.</description>
+		<pawnsPlural>Sangheilis</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Leader</leaderTitle>
+		<startingGoodwill>
+			<min>-10</min>
+			<max>40</max>
+		</startingGoodwill>
+		<goodwillDailyGain>0.10</goodwillDailyGain>
+		<goodwillDailyFall>0.20</goodwillDailyFall>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategories>
+			<li>SangheiliBackstory</li>
+		</backstoryCategories>
+		<naturalColonyGoodwill>
+			<min>-20</min>
+			<max>80</max>
+		</naturalColonyGoodwill>
+		<visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<caravanTraderKinds>
+			<li>Caravan_Outlander_BulkGoods</li>
+			<li>Caravan_Outlander_CombatSupplier</li>
+			<li>Caravan_Outlander_Exotic</li>
+		</caravanTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-50</min>
+			<max>45</max>
+		</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+		  </points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<options>
+					<SwagheiliColonist>50</SwagheiliColonist>
+					<SwagheiliGuard>90</SwagheiliGuard>
+					<SwagheiliMinor>250</SwagheiliMinor>
+					<SwagheiliHonor>100</SwagheiliHonor>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<SwagheiliTrader>1</SwagheiliTrader>
+				</traders>
+				<carriers>
+					<Muffalo>2</Muffalo>
+					<Dromedary>2</Dromedary>
+				</carriers>
+				<guards>
+					<SwagheiliGuard>90</SwagheiliGuard>
+					<SwagheiliHonor>100</SwagheiliHonor>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<SwagheiliColonist>50</SwagheiliColonist>
+					<SwagheiliGuard>90</SwagheiliGuard>
+					<SwagheiliMinor>250</SwagheiliMinor>
+					<SwagheiliHonor>100</SwagheiliHonor>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<SwagheiliColonist>50</SwagheiliColonist>
+					<SwagheiliGuard>90</SwagheiliGuard>
+					<SwagheiliMinor>250</SwagheiliMinor>
+					<SwagheiliHonor>100</SwagheiliHonor>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/SwagheiliBase</homeIconPath>
+		<expandingIconTexture>World/SwagheiliBase</expandingIconTexture>
+	</FactionDef>
+
+</Defs>
