@@ -90,6 +90,18 @@
 							<weight>2</weight>
 							<only>RGBA(0.3,0.3,0.3,1)</only>
 						</li>
+						<li>
+							<weight>2</weight>
+							<only>RGBA(0.36,0.2,0.09,1)</only>
+						</li>
+						<li>
+							<weight>2</weight>
+							<only>RGBA(0.79,0.69,0.58,1)</only>
+						</li>
+						<li>
+							<weight>2</weight>
+							<only>RGBA(0.37,0.15,0.02,1)</only>
+						</li>
 					</options>
                 </alienskincolorgen>
             </alienPartGenerator>
