@@ -14,10 +14,10 @@
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Outlander</li>
-	  <li>Military</li>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
 	  <!-- 
+	  <li>Military</li>
       <li>IndustrialMilitaryAdvanced</li>
       <li>SpacerMilitary</li>
 	  -->
@@ -58,7 +58,7 @@
       <max>2500</max>
     </weaponMoney>
     <weaponTags>
-	  <li>Gun</li>
+	  <li>SimpleGun</li>
       <li>NonNeolithicOnlyMelee</li>
       <li>MedievalMeleeBasic</li>
     </weaponTags>
@@ -102,16 +102,17 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="SangheiliCivBase">
-    <defName>SangheiliMinor</defName>
-    <label>Minor</label>
-    <labelPlural>Minors</labelPlural>
+    <defName>SangheiliKaidon</defName>
+    <label>Kaidon</label>
+    <labelPlural>Kaidons</labelPlural>
     <factionLeader>true</factionLeader>
-	<maxGenerationAge>150</maxGenerationAge>
+	<minGenerationAge>100</minGenerationAge>
+	<maxGenerationAge>200</maxGenerationAge>
   </PawnKindDef>
   
   <PawnKindDef ParentName="SangheiliCivBase">
     <defName>SangheiliTrader</defName>
-    <label>Colony trader</label>
+    <label>Merchant</label>
     <trader>true</trader>
   </PawnKindDef>
 
@@ -128,9 +129,9 @@
     <defName>SangheiliGuard</defName>
     <label>guard</label>
     <combatPower>50</combatPower>
-    <maxGenerationAge>200</maxGenerationAge>
+    <maxGenerationAge>100</maxGenerationAge>
     <gearHealthRange>
-      <min>0.5</min>
+      <min>0.75</min>
       <max>1.8</max>
     </gearHealthRange>
     <apparelMoney>
@@ -141,10 +142,16 @@
       <min>1400</min>
       <max>3000</max>
     </weaponMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
     <weaponTags>
-	  <li>Gun</li>
+	  <li>SpacerGun</li>
 	  <li>GunHeavy</li>
-	  <li>IndustrialGunAdvanced</li>
 	  <li>MedievalMeleeDecent</li>
     </weaponTags>
     <techHediffsMoney>
@@ -155,7 +162,7 @@
       <li>Simple</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsChance>0.003</techHediffsChance>
     <invNutrition>2.55</invNutrition>
     <inventoryOptions>
       <skipChance>0.65</skipChance>
@@ -177,7 +184,7 @@
     <invNutrition>2.55</invNutrition>
     <itemQuality>Normal</itemQuality>
 	<minGenerationAge>40</minGenerationAge>
-    <maxGenerationAge>400</maxGenerationAge>
+    <maxGenerationAge>200</maxGenerationAge>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -185,8 +192,9 @@
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
     </apparelTags>
     <apparelMoney>
       <min>3000</min>
@@ -199,7 +207,7 @@
     <weaponTags>
 	  <li>MedievalMeleeDecent</li>
 	  <li>MedievalMeleeAdvanced</li>
-	  <li>Gun</li>
+	  <li>SpacerGun</li>
 	  <li>GunHeavy</li>
 	  <li>IndustrialGunAdvanced</li>
     </weaponTags>
@@ -222,7 +230,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -237,24 +245,20 @@
   <PawnKindDef ParentName="SangheiliMilBase">
     <defName>SangheiliMinor</defName>
     <label>Minor</label>
-    <combatPower>80</combatPower>
+    <combatPower>100</combatPower>
   </PawnKindDef>
   
 
   <PawnKindDef ParentName="SangheiliMilBase">
-    <defName>SangheiliHonor</defName>
-    <label>Honor Guardsman</label>
-    <combatPower>135</combatPower>
+    <defName>SangheiliSpecOps</defName>
+    <label>Spec Ops</label>
+    <combatPower>235</combatPower>
     <minGenerationAge>100</minGenerationAge>
     <gearHealthRange>
       <min>0.9</min>
       <max>2.3</max>
     </gearHealthRange>
     <apparelTags>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
       <li>SpacerMilitary</li>
       <li>BeltDefensePop</li>
     </apparelTags>
@@ -271,10 +275,11 @@
       <li>MedievalMeleeBasic</li>
 	  <li>MedievalMeleeDecent</li>
 	  <li>MedievalMeleeAdvanced</li>
-	  <li>Gun</li>
 	  <li>GunHeavy</li>
 	  <li>IndustrialGunAdvanced</li>
 	  <li>SpacerGun</li>
+      <li>MechanoidGunMedium</li>
+	  <li>MechanoidGunHeavy</li>
     </weaponTags>
     <techHediffsMoney>
       <min>300</min>
@@ -296,7 +301,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>

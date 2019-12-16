@@ -325,7 +325,7 @@
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef>
-    <defName>SangheiliHonor</defName>
+    <defName>SangheiliSpecOps</defName>
     <title>Sangheili Honorguard</title>
 	<titleShort>Honorguard</titleShort>
     <baseDescription>The Sangheili Honor Guardsmen are personal guards to council members in the Sangheili political environment. [PAWN_nameDef] is here to defend [PAWN_possessive] leaders at all costs.</baseDescription>

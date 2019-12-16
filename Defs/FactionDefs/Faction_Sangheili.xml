@@ -59,7 +59,7 @@
 					<SangheiliColonist>50</SangheiliColonist>
 					<SangheiliGuard>90</SangheiliGuard>
 					<SangheiliMinor>250</SangheiliMinor>
-					<SangheiliHonor>100</SangheiliHonor>
+					<SangheiliSpecOps>100</SangheiliSpecOps>
 				</options>
 			</li>
 			<li>
@@ -73,7 +73,7 @@
 				</carriers>
 				<guards>
 					<SangheiliGuard>90</SangheiliGuard>
-					<SangheiliHonor>100</SangheiliHonor>
+					<SangheiliSpecOps>100</SangheiliSpecOps>
 				</guards>
 			</li>
 			<li>
@@ -82,7 +82,6 @@
 					<SangheiliColonist>50</SangheiliColonist>
 					<SangheiliGuard>90</SangheiliGuard>
 					<SangheiliMinor>250</SangheiliMinor>
-					<SangheiliHonor>100</SangheiliHonor>
 				</options>
 			</li>
 			<li>
@@ -91,7 +90,6 @@
 					<SangheiliColonist>50</SangheiliColonist>
 					<SangheiliGuard>90</SangheiliGuard>
 					<SangheiliMinor>250</SangheiliMinor>
-					<SangheiliHonor>100</SangheiliHonor>
 				</options>
 			</li>
 		</pawnGroupMakers>
