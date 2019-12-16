@@ -14,8 +14,8 @@
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>YounglingSangheiliStage</defName>
-    <label>youngling</label>
+    <defName>YoungSangheiliStage</defName>
+    <label>young</label>
     <bodySizeFactor>0.5</bodySizeFactor>
     <healthScaleFactor>0.5</healthScaleFactor>
     <hungerRateFactor>0.6</hungerRateFactor>
@@ -32,8 +32,6 @@
     <reproductive>true</reproductive>
   </LifeStageDef>
 
-  
-  
   <LifeStageDef>
     <defName>AdultSangheiliStage</defName>
     <label>adult stage</label>
