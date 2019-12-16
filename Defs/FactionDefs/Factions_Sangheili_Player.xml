@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<FactionDef Abstract="True" Name="SwagheiliFactionBase">
+	<FactionDef Abstract="True" Name="SangheiliFactionBase">
 		<colorSpectrum>
 		    <li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>
 	</FactionDef>
   
-	<FactionDef Parent="SwagheiliFactionBase">
-		<defName>SwagheiliPlayerColony</defName>
+	<FactionDef Parent="SangheiliFactionBase">
+		<defName>SangheiliPlayerColony</defName>
 		<label>Sangheili Colony</label>
 		<description>Your own community.</description>
 		<isPlayer>true</isPlayer>
@@ -25,18 +25,18 @@
 		<backstoryCategories>
 			<li>SangheiliBackstory</li>
 		</backstoryCategories>
-		<homeIconPath>World/SwagheiliBase</homeIconPath>
-		<expandingIconTexture>World/SwagheiliBase</expandingIconTexture>
+		<homeIconPath>World/SangheiliBase</homeIconPath>
+		<expandingIconTexture>World/SangheiliBase</expandingIconTexture>
 		
 		<geneticVariance>1</geneticVariance>
-		<pawnNameMaker>NamerSwagheili</pawnNameMaker>
+		<pawnNameMaker>NamerPersonSangheili</pawnNameMaker>
 		
 		<startingResearchTags>
 			<li>ClassicStart</li>
 		</startingResearchTags>
 		<hairTags>
 			<li>Urban</li>
-			<li>SwagheiliHair</li>
+			<li>SangheiliHair</li>
 		</hairTags>
 		<apparelStuffFilter>
 			<thingDefs>

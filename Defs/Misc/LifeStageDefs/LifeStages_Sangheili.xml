@@ -2,7 +2,7 @@
 <Defs>
   
   <LifeStageDef>
-    <defName>FirstbornSwagheiliStage</defName>
+    <defName>FirstbornSangheiliStage</defName>
     <label>Firstborn</label>
     <bodySizeFactor>0.2</bodySizeFactor>
     <healthScaleFactor>0.2</healthScaleFactor>
@@ -14,8 +14,8 @@
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>YounglingSwagheiliStage</defName>
-    <label>youngling</label>
+    <defName>YoungSangheiliStage</defName>
+    <label>young</label>
     <bodySizeFactor>0.5</bodySizeFactor>
     <healthScaleFactor>0.5</healthScaleFactor>
     <hungerRateFactor>0.6</hungerRateFactor>
@@ -26,16 +26,14 @@
   </LifeStageDef>
 
    <LifeStageDef>
-    <defName>TeenSwagheiliStage</defName>
+    <defName>TeenSangheiliStage</defName>
     <label>teenage stage</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
   </LifeStageDef>
 
-  
-  
   <LifeStageDef>
-    <defName>AdultSwagheiliStage</defName>
+    <defName>AdultSangheiliStage</defName>
     <label>adult stage</label>
     <visible>false</visible>
     <reproductive>true</reproductive>

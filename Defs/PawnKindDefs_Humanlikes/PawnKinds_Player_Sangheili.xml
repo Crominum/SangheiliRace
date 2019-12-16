@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef Abstract="True" Name="BaseSwagheiliPawnKind">
+  <PawnKindDef Abstract="True" Name="BaseSangheiliPawnKind">
     <race>Alien_Sangheili</race>
     <combatPower>40</combatPower>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
@@ -10,7 +10,7 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BaseSwagheiliPawnKind">
+  <PawnKindDef ParentName="BaseSangheiliPawnKind">
     <defName>Sangheili</defName>
     <label>colonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>

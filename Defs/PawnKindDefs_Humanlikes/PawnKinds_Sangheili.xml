@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ============================ Swagheili Base ========================== -->
+  <!-- ============================ Sangheili Base ========================== -->
 
-  <PawnKindDef Name="SwagheiliBase" Abstract="True">
-    <defaultFactionType>SwagheiliFaction</defaultFactionType>
+  <PawnKindDef Name="SangheiliBase" Abstract="True">
+    <defaultFactionType>SangheiliFaction</defaultFactionType>
     <race>Alien_Sangheili</race>
 	<backstoryCategories>
 			<li>SangheiliBackstory</li>
   	</backstoryCategories>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
+      <li>Outlander</li>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
+	  <!-- 
+	  <li>Military</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+	  -->
     </apparelTags>
 	 <!-- 
 	 
@@ -31,9 +38,9 @@
 	-->
   </PawnKindDef>
   
-  <!-- ============================ Swagheili Civilian Base ========================== -->
+  <!-- ============================ Sangheili Civilian Base ========================== -->
 
-  <PawnKindDef Name="SwagheiliCivBase" ParentName="SwagheiliBase" Abstract="True">
+  <PawnKindDef Name="SangheiliCivBase" ParentName="SangheiliBase" Abstract="True">
     <combatPower>25</combatPower>
 	<race>Alien_Sangheili</race>
     <itemQuality>Normal</itemQuality>
@@ -51,9 +58,10 @@
       <max>2500</max>
     </weaponMoney>
     <weaponTags>
-	  <li>Gun</li>
+	  <li>SimpleGun</li>
       <li>NonNeolithicOnlyMelee</li>
       <li>MedievalMeleeBasic</li>
+	  <li>Covenant_PlasmaPistol</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -87,44 +95,44 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <!-- ============================ Swagheili Civilians ========================== -->
+  <!-- ============================ Sangheili Civilians ========================== -->
   
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliColonist</defName>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliColonist</defName>
     <label>colonist</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliMinor</defName>
-    <label>Minor</label>
-    <labelPlural>Minori</labelPlural>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliKaidon</defName>
+    <label>Kaidon</label>
+    <labelPlural>Kaidons</labelPlural>
     <factionLeader>true</factionLeader>
-	<minGenerationAge>150</minGenerationAge>
-	<maxGenerationAge>400</maxGenerationAge>
+	<minGenerationAge>100</minGenerationAge>
+	<maxGenerationAge>200</maxGenerationAge>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliTrader</defName>
-    <label>Colony trader</label>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliTrader</defName>
+    <label>Merchant</label>
     <trader>true</trader>
   </PawnKindDef>
 
-    <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliRefugee</defName>
+    <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliRefugee</defName>
     <label>refugee</label>
   </PawnKindDef>
   
 
   
-  <!-- ============================ Swagheili Security ========================== -->
+  <!-- ============================ Sangheili Security ========================== -->
   
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliGuard</defName>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliGuard</defName>
     <label>guard</label>
     <combatPower>50</combatPower>
-    <maxGenerationAge>200</maxGenerationAge>
+    <maxGenerationAge>100</maxGenerationAge>
     <gearHealthRange>
-      <min>0.5</min>
+      <min>0.75</min>
       <max>1.8</max>
     </gearHealthRange>
     <apparelMoney>
@@ -135,11 +143,21 @@
       <min>1400</min>
       <max>3000</max>
     </weaponMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
+    </apparelTags>
     <weaponTags>
-	  <li>Gun</li>
+	  <li>SpacerGun</li>
 	  <li>GunHeavy</li>
-	  <li>IndustrialGunAdvanced</li>
 	  <li>MedievalMeleeDecent</li>
+	  <li>Covenant_PlasmaPistol</li>
+	  <li>Covenant_PlasmaRifle</li>
+	  <li>Covenant_Repeater</li>
+	  <li>Covenant_EnergySword</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -149,7 +167,7 @@
       <li>Simple</li>
       <li>Advanced</li>
     </techHediffsTags>
-    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsChance>0.003</techHediffsChance>
     <invNutrition>2.55</invNutrition>
     <inventoryOptions>
       <skipChance>0.65</skipChance>
@@ -162,16 +180,16 @@
   </PawnKindDef>
   
  
-  <!-- ============================ Swagheili Military Base ========================== -->
+  <!-- ============================ Sangheili Military Base ========================== -->
   
-  <PawnKindDef Name="SwagheiliMilBase" ParentName="SwagheiliBase" Abstract="True">
+  <PawnKindDef Name="SangheiliMilBase" ParentName="SangheiliBase" Abstract="True">
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <isFighter>true</isFighter>
 	<race>Alien_Sangheili</race>
     <invNutrition>2.55</invNutrition>
     <itemQuality>Normal</itemQuality>
 	<minGenerationAge>40</minGenerationAge>
-    <maxGenerationAge>400</maxGenerationAge>
+    <maxGenerationAge>200</maxGenerationAge>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -179,8 +197,9 @@
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
     </apparelTags>
     <apparelMoney>
       <min>3000</min>
@@ -193,9 +212,14 @@
     <weaponTags>
 	  <li>MedievalMeleeDecent</li>
 	  <li>MedievalMeleeAdvanced</li>
-	  <li>Gun</li>
+	  <li>SpacerGun</li>
 	  <li>GunHeavy</li>
 	  <li>IndustrialGunAdvanced</li>
+	  <li>Covenant_PlasmaRifle</li>
+	  <li>Covenant_Repeater</li>
+	  <li>Covenant_ConcussionRifle</li>
+	  <li>Covenant_EnergySword</li>
+	  <li>Covenant_FuelRodCannon</li>
     </weaponTags>
     <techHediffsMoney>
       <min>300</min>
@@ -216,7 +240,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -226,29 +250,25 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <!-- ============================ Swagheili Military ========================== -->
+  <!-- ============================ Sangheili Military ========================== -->
   
-  <PawnKindDef ParentName="SwagheiliMilBase">
-    <defName>SwagheiliMinor</defName>
+  <PawnKindDef ParentName="SangheiliMilBase">
+    <defName>SangheiliMinor</defName>
     <label>Minor</label>
-    <combatPower>80</combatPower>
+    <combatPower>100</combatPower>
   </PawnKindDef>
   
 
-  <PawnKindDef ParentName="SwagheiliMilBase">
-    <defName>SwagheiliHonor</defName>
-    <label>Honor Guardsman</label>
-    <combatPower>135</combatPower>
+  <PawnKindDef ParentName="SangheiliMilBase">
+    <defName>SangheiliSpecOps</defName>
+    <label>Spec Ops</label>
+    <combatPower>235</combatPower>
     <minGenerationAge>100</minGenerationAge>
     <gearHealthRange>
       <min>0.9</min>
       <max>2.3</max>
     </gearHealthRange>
     <apparelTags>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
       <li>SpacerMilitary</li>
       <li>BeltDefensePop</li>
     </apparelTags>
@@ -265,10 +285,14 @@
       <li>MedievalMeleeBasic</li>
 	  <li>MedievalMeleeDecent</li>
 	  <li>MedievalMeleeAdvanced</li>
-	  <li>Gun</li>
 	  <li>GunHeavy</li>
 	  <li>IndustrialGunAdvanced</li>
 	  <li>SpacerGun</li>
+      <li>MechanoidGunMedium</li>
+	  <li>MechanoidGunHeavy</li>
+	  <li>Covenant_Carbine</li>
+	  <li>Covenant_NeedleRifle</li>
+	  <li>Covenant_BeamRifle</li>
     </weaponTags>
     <techHediffsMoney>
       <min>300</min>
@@ -290,7 +314,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineUltratech</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
