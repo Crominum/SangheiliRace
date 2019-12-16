@@ -61,6 +61,7 @@
 	  <li>SimpleGun</li>
       <li>NonNeolithicOnlyMelee</li>
       <li>MedievalMeleeBasic</li>
+	  <li>Covenant_PlasmaPistol</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -153,6 +154,10 @@
 	  <li>SpacerGun</li>
 	  <li>GunHeavy</li>
 	  <li>MedievalMeleeDecent</li>
+	  <li>Covenant_PlasmaPistol</li>
+	  <li>Covenant_PlasmaRifle</li>
+	  <li>Covenant_Repeater</li>
+	  <li>Covenant_EnergySword</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -210,6 +215,11 @@
 	  <li>SpacerGun</li>
 	  <li>GunHeavy</li>
 	  <li>IndustrialGunAdvanced</li>
+	  <li>Covenant_PlasmaRifle</li>
+	  <li>Covenant_Repeater</li>
+	  <li>Covenant_ConcussionRifle</li>
+	  <li>Covenant_EnergySword</li>
+	  <li>Covenant_FuelRodCannon</li>
     </weaponTags>
     <techHediffsMoney>
       <min>300</min>
@@ -280,6 +290,9 @@
 	  <li>SpacerGun</li>
       <li>MechanoidGunMedium</li>
 	  <li>MechanoidGunHeavy</li>
+	  <li>Covenant_Carbine</li>
+	  <li>Covenant_NeedleRifle</li>
+	  <li>Covenant_BeamRifle</li>
     </weaponTags>
     <techHediffsMoney>
       <min>300</min>
