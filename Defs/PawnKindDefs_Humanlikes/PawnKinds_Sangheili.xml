@@ -103,10 +103,9 @@
   <PawnKindDef ParentName="SangheiliCivBase">
     <defName>SangheiliMinor</defName>
     <label>Minor</label>
-    <labelPlural>Minori</labelPlural>
+    <labelPlural>Minors</labelPlural>
     <factionLeader>true</factionLeader>
-	<minGenerationAge>150</minGenerationAge>
-	<maxGenerationAge>400</maxGenerationAge>
+	<maxGenerationAge>150</maxGenerationAge>
   </PawnKindDef>
   
   <PawnKindDef ParentName="SangheiliCivBase">
