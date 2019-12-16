@@ -156,7 +156,7 @@
     		<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
     		<ArmorRating_Heat>0.70</ArmorRating_Heat>
     		<CarryingCapacity>125</CarryingCapacity>
-    		<Mass>70.0</Mass>
+    		<Mass>120.0</Mass>
     		<ResearchSpeed>2</ResearchSpeed>
     		<SculptingSpeed>0.5</SculptingSpeed>
 	</statBases>
