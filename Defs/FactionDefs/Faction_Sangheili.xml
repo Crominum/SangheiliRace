@@ -56,7 +56,6 @@
 			<li>
 				<kindDef>Combat</kindDef>
 				<options>
-					<SangheiliColonist>50</SangheiliColonist>
 					<SangheiliGuard>90</SangheiliGuard>
 					<SangheiliMinor>250</SangheiliMinor>
 					<SangheiliSpecOps>100</SangheiliSpecOps>
@@ -81,7 +80,7 @@
 				<options>
 					<SangheiliColonist>50</SangheiliColonist>
 					<SangheiliGuard>90</SangheiliGuard>
-					<SangheiliMinor>250</SangheiliMinor>
+					<SangheiliMinor>200</SangheiliMinor>
 				</options>
 			</li>
 			<li>
