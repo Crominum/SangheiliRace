@@ -20,7 +20,7 @@
 		<goodwillDailyFall>0.20</goodwillDailyFall>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		<techLevel>Spacer</techLevel>
+		<techLevel>Ultra</techLevel>
 		<backstoryCategories>
 			<li>SangheiliBackstory</li>
 		</backstoryCategories>

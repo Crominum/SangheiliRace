@@ -11,9 +11,15 @@
   	</backstoryCategories>
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
+      <li>Outlander</li>
+	  <li>Military</li>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
     </apparelTags>
 	 <!-- 
 	 
