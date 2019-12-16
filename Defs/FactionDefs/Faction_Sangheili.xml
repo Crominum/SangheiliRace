@@ -2,7 +2,7 @@
 <Defs>
 
 	<FactionDef>
-			<defName>SwagheiliFaction</defName>
+			<defName>SangheiliFaction</defName>
 			<label>Sangheili Tribe</label>
 		<description>A developed colony collectively owned by the Sangheili race.</description>
 		<pawnsPlural>Sangheilis</pawnsPlural>
@@ -11,7 +11,7 @@
 		<canMakeRandomly>true</canMakeRandomly>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>Leader</leaderTitle>
+		<leaderTitle>Kaidon</leaderTitle>
 		<startingGoodwill>
 			<min>-10</min>
 			<max>40</max>
@@ -56,47 +56,47 @@
 			<li>
 				<kindDef>Combat</kindDef>
 				<options>
-					<SwagheiliColonist>50</SwagheiliColonist>
-					<SwagheiliGuard>90</SwagheiliGuard>
-					<SwagheiliMinor>250</SwagheiliMinor>
-					<SwagheiliHonor>100</SwagheiliHonor>
+					<SangheiliColonist>50</SangheiliColonist>
+					<SangheiliGuard>90</SangheiliGuard>
+					<SangheiliMinor>250</SangheiliMinor>
+					<SangheiliHonor>100</SangheiliHonor>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<SwagheiliTrader>1</SwagheiliTrader>
+					<SangheiliTrader>1</SangheiliTrader>
 				</traders>
 				<carriers>
 					<Muffalo>2</Muffalo>
 					<Dromedary>2</Dromedary>
 				</carriers>
 				<guards>
-					<SwagheiliGuard>90</SwagheiliGuard>
-					<SwagheiliHonor>100</SwagheiliHonor>
+					<SangheiliGuard>90</SangheiliGuard>
+					<SangheiliHonor>100</SangheiliHonor>
 				</guards>
 			</li>
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
-					<SwagheiliColonist>50</SwagheiliColonist>
-					<SwagheiliGuard>90</SwagheiliGuard>
-					<SwagheiliMinor>250</SwagheiliMinor>
-					<SwagheiliHonor>100</SwagheiliHonor>
+					<SangheiliColonist>50</SangheiliColonist>
+					<SangheiliGuard>90</SangheiliGuard>
+					<SangheiliMinor>250</SangheiliMinor>
+					<SangheiliHonor>100</SangheiliHonor>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
-					<SwagheiliColonist>50</SwagheiliColonist>
-					<SwagheiliGuard>90</SwagheiliGuard>
-					<SwagheiliMinor>250</SwagheiliMinor>
-					<SwagheiliHonor>100</SwagheiliHonor>
+					<SangheiliColonist>50</SangheiliColonist>
+					<SangheiliGuard>90</SangheiliGuard>
+					<SangheiliMinor>250</SangheiliMinor>
+					<SangheiliHonor>100</SangheiliHonor>
 				</options>
 			</li>
 		</pawnGroupMakers>
-		<homeIconPath>World/SwagheiliBase</homeIconPath>
-		<expandingIconTexture>World/SwagheiliBase</expandingIconTexture>
+		<homeIconPath>World/SangheiliBase</homeIconPath>
+		<expandingIconTexture>World/SangheiliBase</expandingIconTexture>
 	</FactionDef>
 
 </Defs>

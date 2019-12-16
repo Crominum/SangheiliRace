@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Swagheili</defName>
+    <defName>Leather_Sangheili</defName>
     <label>Sangheili leather</label>
     <description>Tanned, dried, scraped sangheili skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
     <graphicData>

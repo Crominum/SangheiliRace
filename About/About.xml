@@ -3,6 +3,6 @@
 	<name>Sangheili</name>
 	<author>Crominum and Remi</author>
 	<url></url>
-	<targetVersion>1.0</targetVersion>
-	<description>A race mod adding sangheilis.</description>
+	<supportedVersions><li>1.0</li></supportedVersions>
+	<description></description>
 </ModMetaData>

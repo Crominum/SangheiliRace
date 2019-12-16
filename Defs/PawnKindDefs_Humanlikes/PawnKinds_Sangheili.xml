@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ============================ Swagheili Base ========================== -->
+  <!-- ============================ Sangheili Base ========================== -->
 
-  <PawnKindDef Name="SwagheiliBase" Abstract="True">
-    <defaultFactionType>SwagheiliFaction</defaultFactionType>
+  <PawnKindDef Name="SangheiliBase" Abstract="True">
+    <defaultFactionType>SangheiliFaction</defaultFactionType>
     <race>Alien_Sangheili</race>
 	<backstoryCategories>
 			<li>SangheiliBackstory</li>
@@ -31,9 +31,9 @@
 	-->
   </PawnKindDef>
   
-  <!-- ============================ Swagheili Civilian Base ========================== -->
+  <!-- ============================ Sangheili Civilian Base ========================== -->
 
-  <PawnKindDef Name="SwagheiliCivBase" ParentName="SwagheiliBase" Abstract="True">
+  <PawnKindDef Name="SangheiliCivBase" ParentName="SangheiliBase" Abstract="True">
     <combatPower>25</combatPower>
 	<race>Alien_Sangheili</race>
     <itemQuality>Normal</itemQuality>
@@ -87,15 +87,15 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <!-- ============================ Swagheili Civilians ========================== -->
+  <!-- ============================ Sangheili Civilians ========================== -->
   
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliColonist</defName>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliColonist</defName>
     <label>colonist</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliMinor</defName>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliMinor</defName>
     <label>Minor</label>
     <labelPlural>Minori</labelPlural>
     <factionLeader>true</factionLeader>
@@ -103,23 +103,23 @@
 	<maxGenerationAge>400</maxGenerationAge>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliTrader</defName>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliTrader</defName>
     <label>Colony trader</label>
     <trader>true</trader>
   </PawnKindDef>
 
-    <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliRefugee</defName>
+    <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliRefugee</defName>
     <label>refugee</label>
   </PawnKindDef>
   
 
   
-  <!-- ============================ Swagheili Security ========================== -->
+  <!-- ============================ Sangheili Security ========================== -->
   
-  <PawnKindDef ParentName="SwagheiliCivBase">
-    <defName>SwagheiliGuard</defName>
+  <PawnKindDef ParentName="SangheiliCivBase">
+    <defName>SangheiliGuard</defName>
     <label>guard</label>
     <combatPower>50</combatPower>
     <maxGenerationAge>200</maxGenerationAge>
@@ -162,9 +162,9 @@
   </PawnKindDef>
   
  
-  <!-- ============================ Swagheili Military Base ========================== -->
+  <!-- ============================ Sangheili Military Base ========================== -->
   
-  <PawnKindDef Name="SwagheiliMilBase" ParentName="SwagheiliBase" Abstract="True">
+  <PawnKindDef Name="SangheiliMilBase" ParentName="SangheiliBase" Abstract="True">
     <chemicalAddictionChance>0</chemicalAddictionChance>
     <isFighter>true</isFighter>
 	<race>Alien_Sangheili</race>
@@ -226,17 +226,17 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <!-- ============================ Swagheili Military ========================== -->
+  <!-- ============================ Sangheili Military ========================== -->
   
-  <PawnKindDef ParentName="SwagheiliMilBase">
-    <defName>SwagheiliMinor</defName>
+  <PawnKindDef ParentName="SangheiliMilBase">
+    <defName>SangheiliMinor</defName>
     <label>Minor</label>
     <combatPower>80</combatPower>
   </PawnKindDef>
   
 
-  <PawnKindDef ParentName="SwagheiliMilBase">
-    <defName>SwagheiliHonor</defName>
+  <PawnKindDef ParentName="SangheiliMilBase">
+    <defName>SangheiliHonor</defName>
     <label>Honor Guardsman</label>
     <combatPower>135</combatPower>
     <minGenerationAge>100</minGenerationAge>
