@@ -17,9 +17,10 @@
 	  <li>Military</li>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
+	  <!-- 
       <li>IndustrialMilitaryAdvanced</li>
       <li>SpacerMilitary</li>
+	  -->
     </apparelTags>
 	 <!-- 
 	 
