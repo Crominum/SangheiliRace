@@ -37,6 +37,8 @@
         <generalSettings>
             <maleGenderProbability>0.8</maleGenderProbability>
             <immuneToAge>true</immuneToAge>
+			
+			<!--
 			<forcedRaceTraitEntries>
 				<li>
 					<defName>Industriousness</defName>
@@ -44,6 +46,8 @@
 					<chance>1</chance>
 				</li>
 			</forcedRaceTraitEntries>
+			-->
+			
 			<disallowedTraits>
 					<li>Greedy</li>
 					<li>Jealous</li>
