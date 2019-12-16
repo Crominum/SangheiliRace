@@ -136,7 +136,7 @@
     </alienRace>
 	<statBases>
     		<MarketValue>1750</MarketValue>
-    		<MoveSpeed>12</MoveSpeed>
+    		<MoveSpeed>10</MoveSpeed>
     		<MiningSpeed>1.0</MiningSpeed>
     		<HuntingStealth>0.50</HuntingStealth>
     		<Flammability>0.2</Flammability>
