@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SangheiliOrphan.title>サンへイリ：戦争孤児</SangheiliOrphan.title>
+  <SangheiliOrphan.titleShort>孤児</SangheiliOrphan.titleShort>
+  <SangheiliOrphan.baseDescription>[PAWN_nameDef]は、すべての[PAWN_possessive]兄弟姉妹のように、子供の頃から軍に入隊されて、[PAWN_possessive]両親によって放棄されて孤児となりました。</SangheiliOrphan.baseDescription>
+
+  <SangheiliSlave.title>サンへイリ：奴隷</SangheiliSlave.title>
+  <SangheiliSlave.titleShort>奴隷</SangheiliSlave.titleShort>
+  <SangheiliSlave.baseDescription>[PAWN_nameDef]は、軍には入れられずに幼い頃から奴隷にされました。[PAWN_pronoun]は、おそらく[PAWN_possessive]主人に打ちのめされ、[PAWN_possessive]人生が終わる時まで強制労働以外の名誉ある職に就くことはないでしょう。</SangheiliSlave.baseDescription>
+
+  <SangheiliTrainee.title>剣士訓練生</SangheiliTrainee.title>
+  <SangheiliTrainee.titleShort>訓練生</SangheiliTrainee.titleShort>
+  <SangheiliTrainee.baseDescription>[PAWN_nameDef]は、訓練生として[PAWN_possessive]住む州で剣術の訓練を受けています。[PAWN_pronoun]は、若い頃から教育されて打たれながらスキルを高めて、最後はサンヘイリに与えられる最高の栄誉の1つを獲得します。</SangheiliTrainee.baseDescription>
+
+  <SangheiliFarmer.title>サンへイリ：農民</SangheiliFarmer.title>
+  <SangheiliFarmer.titleShort>農民</SangheiliFarmer.titleShort>
+  <SangheiliFarmer.baseDescription>[PAWN_nameDef]は、サンへイリオスか[PAWN_possessive]作物を生産する郊外の拠点に住んでいました。[PAWN_pronoun]は[PAWN_possessive]兄弟たちのために食物を育てる以外に何の考えも持たないように教育されており、注意深く農業計画してそれを達成します。</SangheiliFarmer.baseDescription>
+
+  <SangheiliMinor.title>サンへイリ：下級兵</SangheiliMinor.title>
+  <SangheiliMinor.titleShort>下級兵</SangheiliMinor.titleShort>
+  <SangheiliMinor.baseDescription>[PAWN_nameDef]は、[PAWN_possessive]中で最も低い階級に就いています。未成年者の最も一般的な階級であり、すべての軍人の中で最も経験が不足しています。</SangheiliMinor.baseDescription>
+
+  <SangheiliMajor.title>サンへイリ：上級兵</SangheiliMajor.title>
+  <SangheiliMajor.titleShort>上級兵</SangheiliMajor.titleShort>
+  <SangheiliMajor.baseDescription>下級兵の次の階級で、上級兵は熟練したサンヘイリ兵であり、しばしばアンゴイたちや下級兵の部隊を指揮します。[PAWN_nameDef]もそのような士官の一人で、[PAWN_possessive]価値は戦闘で証明済です。</SangheiliMajor.baseDescription>
+
+  <SangheiliUltra.title>サンへイリ：ウルトラ</SangheiliUltra.title>
+  <SangheiliUltra.titleShort>ウルトラ</SangheiliUltra.titleShort>
+  <SangheiliUltra.baseDescription>ウルトラは主に惑星地表での軍事作戦に配備され、小規模な交戦に熟練した司令官です。彼らは戦場で与えられた目標を達成するために居ます。[PAWN_nameDef]は、[PAWN_possessive]所属部隊を指揮する方法を知っています。</SangheiliUltra.baseDescription>
+
+  <SangheiliGeneral.title>サンへイリ：将軍</SangheiliGeneral.title>
+  <SangheiliGeneral.titleShort>将軍</SangheiliGeneral.titleShort>
+  <SangheiliGeneral.baseDescription>惑星地表で活動する野戦軍で最高階級である[PAWN_nameDef]は、数百から数千の[PAWN_possessive]兄弟姉妹たちを敵の領土に侵攻させる将軍です。</SangheiliGeneral.baseDescription>
+
+  <SangheiliRanger.title>サンへイリ：レンジャー</SangheiliRanger.title>
+  <SangheiliRanger.titleShort>レンジャー</SangheiliRanger.titleShort>
+  <SangheiliRanger.baseDescription>宇宙空間での任務に熟練した特殊部隊の隊員です。[PAWN_nameDef]は、高火力な携帯火器を通して自分自身と[PAWN_possessive]所属部族に名誉をもたらすことを目指しています。</SangheiliRanger.baseDescription>
+
+  <SangheiliSpec.title>サンへイリ：特殊部隊員</SangheiliSpec.title>
+  <SangheiliSpec.titleShort>特殊部隊員</SangheiliSpec.titleShort>
+  <SangheiliSpec.baseDescription>特殊作戦部隊所属のサンヘイリは、コヴナントが行う作戦の中で特に困難な任務を割り当てられるエリート兵です。彼らはサンヘイリ軍で最も強力な戦士です。[PAWN_nameDef]は作戦目標が与えられるとそれを達成するために何でもします。</SangheiliSpec.baseDescription>
+
+  <SangheiliMed.title>サンへイリ：衛生兵</SangheiliMed.title>
+  <SangheiliMed.titleShort>衛生兵</SangheiliMed.titleShort>
+  <SangheiliMed.baseDescription>大分裂の後に軍に編入されたサンへイリの衛生兵は、戦場で負傷した人々を治療しようとします。昔は恥ずべきことでしたが、[PAWN_nameDef]は[PAWN_possessive]名誉が死との戦いでも証明されることを実証しようとしています。</SangheiliMed.baseDescription>
+
+  <SangheiliSpecMed.title>サンへイリ：特殊部隊衛生兵</SangheiliSpecMed.title>
+  <SangheiliSpecMed.titleShort>特殊部隊員</SangheiliSpecMed.titleShort>
+  <SangheiliSpecMed.baseDescription>ほとんどの特殊部隊に所属している隊員たちと同じ様に、[PAWN_nameDef]は[PAWN_possessive]仲間と一緒に非常に困難な作戦に送られ、[PAWN_possessive]目標を達成できる間は生き続けることを願っています。</SangheiliSpecMed.baseDescription>
+
+  <SangheiliSpecOps.title>サンへイリ：名誉護衛兵</SangheiliSpecOps.title>
+  <SangheiliSpecOps.titleShort>護衛兵</SangheiliSpecOps.titleShort>
+  <SangheiliSpecOps.baseDescription>サンヘイリの名誉護衛兵たちは、サンヘイリの政治的な場における評議員の個人的な護衛兵です。[PAWN_nameDef]は、[PAWN_possessive]指導者たちを命を捨てて守るためにいます。</SangheiliSpecOps.baseDescription>
+
+  <SangheiliZealot.title>サンへイリ：ゼロット</SangheiliZealot.title>
+  <SangheiliZealot.titleShort>ゼロット</SangheiliZealot.titleShort>
+  <SangheiliZealot.baseDescription>ゼロット(熱狂者)は、サンヘイリ海軍でさまざまな役割を担っています。彼らは地表の艦船や部隊を指揮します。</SangheiliZealot.baseDescription>
+
+  <SangheiliCommand.title>サンへイリ：最高司令官</SangheiliCommand.title>
+  <SangheiliCommand.titleShort>司令官</SangheiliCommand.titleShort>
+  <SangheiliCommand.baseDescription>[PAWN_possessive]サンへイリ大艦隊の最高司令官です。[PAWN_nameDef]は、[PAWN_pronoun]が指揮する多くの船と[PAWN_possessive]軍を率いる経験とスキルを持っています。</SangheiliCommand.baseDescription>
+
+  <SangheiliAdmiral.title>サンへイリ：帝国提督</SangheiliAdmiral.title>
+  <SangheiliAdmiral.titleShort>提督</SangheiliAdmiral.titleShort>
+  <SangheiliAdmiral.baseDescription>[PAWN_nameDef]は、サンヘイリ海軍全体を統括し、すべての部隊を完全に管理しています。[PAWN_pronoun]は、あらゆる場所で海軍に所属するすべての者を指揮しますが、実際には一人しか存在しないことが知られています。</SangheiliAdmiral.baseDescription>
+
+  <SangheiliArbiter.title>サンへイリ：アービター</SangheiliArbiter.title>
+  <SangheiliArbiter.titleShort>アービター</SangheiliArbiter.titleShort>
+  <SangheiliArbiter.baseDescription>歴史的な危機には、特別なサンヘイリにアービターの階級が与えられ、軍を支配して高いスキルを使い発生した問題を終わらせます。これは、サンヘイリ軍の最も古い階級の1つで[PAWN_nameDef]は、現在アービターのマントを着ています。</SangheiliArbiter.baseDescription>
+
+  <SangheiliKaidon.title>サンへイリ：カイドン</SangheiliKaidon.title>
+  <SangheiliKaidon.titleShort>支配者</SangheiliKaidon.titleShort>
+  <SangheiliKaidon.baseDescription>[PAWN_nameDef]は、サンへイリの[PAWN_possessive]所属部族の指導者で、政治評議員として活動するために部族議会によって選出されました。</SangheiliKaidon.baseDescription>
+
+  <SangheiliSwordsman.title>サンへイリ：剣士</SangheiliSwordsman.title>
+  <SangheiliSwordsman.titleShort>剣士</SangheiliSwordsman.titleShort>
+  <SangheiliSwordsman.baseDescription>エナジーソードを振るう方法を教えられ高度に訓練された名誉ある戦士です。</SangheiliSwordsman.baseDescription>
+
+  <SangheiliCouncilor.title>サンへイリ：高等評議員</SangheiliCouncilor.title>
+  <SangheiliCouncilor.titleShort>評議員</SangheiliCouncilor.titleShort>
+  <SangheiliCouncilor.baseDescription>[PAWN_nameDef]は、高等評議会のメンバーでサンヘイリ政府の非常に重要な政治指導者です。[PAWN_pronoun]は通常、[PAWN_pronoun]がこの地位に就く前に、最低でもある程度軍人として務める必要があります。</SangheiliCouncilor.baseDescription>
+
+  <SangheiliSlaveAdult.title>サンへイリ：奴隷</SangheiliSlaveAdult.title>
+  <SangheiliSlaveAdult.titleShort>奴隷</SangheiliSlaveAdult.titleShort>
+  <SangheiliSlaveAdult.baseDescription>[PAWN_nameDef]は、なんとか[PAWN_possessive]主人のブーツに踏まれてながら[PAWN_possessive]不自由な人生を切り抜けて生き延びました。[PAWN_possessive]忍耐強さと勇気が[PAWN_possessive]自由に繋がって、[PAWN_pronoun]がそれを実現できると願っています。</SangheiliSlaveAdult.baseDescription>
+
+  <SangheiliPrisoner.title>サンへイリ：囚人</SangheiliPrisoner.title>
+  <SangheiliPrisoner.titleShort>囚人</SangheiliPrisoner.titleShort>
+  <SangheiliPrisoner.baseDescription>不幸な出来事か不名誉な行動が原因で、[PAWN_nameDef]はサンへイリ社会から囚人として扱われ、[PAWN_pronoun]が処刑されて死亡するか、脱獄するまで強制労働させられます。</SangheiliPrisoner.baseDescription>
+
+</LanguageData>
