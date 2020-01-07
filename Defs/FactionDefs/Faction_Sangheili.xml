@@ -3,7 +3,7 @@
 
 	<FactionDef>
 			<defName>SangheiliFaction</defName>
-			<label>Sangheili Tribe</label>
+			<label>Sangheili State</label>
 		<description>A developed colony collectively owned by the Sangheili race.</description>
 		<pawnsPlural>Sangheilis</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
