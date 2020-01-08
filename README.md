@@ -1,3 +1,3 @@
 # SangheiliRace
 
-The dev branch shouldn't be used at all. Merely for testing and updates. Go check out the master branch instead.
+This branch is use at your own discretion, as it's merely for testing and developing updates updates. Go check out the master branch instead if you want the refined product.
