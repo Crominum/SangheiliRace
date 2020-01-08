@@ -35,7 +35,7 @@
     <description>The Sangheili are a species of strong, proud, and intelligent warriors, as well as skilled combat tacticians. Humanoid and reptilian in body structure, they sport quadruple hinged mandibles with conical teeth as well as a binary vascular system.</description>
     <alienRace>
         <generalSettings>
-            <maleGenderProbability>0.8</maleGenderProbability>
+            <maleGenderProbability>0.7</maleGenderProbability>
             <immuneToAge>true</immuneToAge>
 			
 			<!--
@@ -60,6 +60,7 @@
                 <aliencrowntypes>
                     <li>Average_Normal</li>
 					<li>Average_Bulky</li>
+					<li>Average_Other</li>
                 </aliencrowntypes>
                 <alienbodytypes>
 					<li>Hulk</li>
@@ -152,8 +153,8 @@
     		<LeatherAmount>10</LeatherAmount>
     		<MeatAmount>120</MeatAmount>
     		<HungerRateMultiplier>1.5</HungerRateMultiplier>
-    		<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
-    		<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+    		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+    		<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
     		<ArmorRating_Heat>0.70</ArmorRating_Heat>
     		<CarryingCapacity>125</CarryingCapacity>
     		<Mass>90.0</Mass>

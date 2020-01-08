@@ -198,7 +198,6 @@
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
       <li>IndustrialMilitaryAdvanced</li>
-      <li>SpacerMilitary</li>
       <li>BeltDefensePop</li>
     </apparelTags>
     <apparelMoney>
@@ -217,9 +216,8 @@
 	  <li>IndustrialGunAdvanced</li>
 	  <li>Covenant_PlasmaRifle</li>
 	  <li>Covenant_Repeater</li>
-	  <li>Covenant_ConcussionRifle</li>
 	  <li>Covenant_EnergySword</li>
-	  <li>Covenant_FuelRodCannon</li>
+	  <li>Covenant_Carbine</li>
     </weaponTags>
     <techHediffsMoney>
       <min>300</min>
@@ -289,10 +287,10 @@
 	  <li>IndustrialGunAdvanced</li>
 	  <li>SpacerGun</li>
       <li>MechanoidGunMedium</li>
-	  <li>MechanoidGunHeavy</li>
-	  <li>Covenant_Carbine</li>
 	  <li>Covenant_NeedleRifle</li>
 	  <li>Covenant_BeamRifle</li>
+	  <li>Covenant_FuelRodCannon</li>
+	  <li>Covenant_ConcussionRifle</li>
     </weaponTags>
     <techHediffsMoney>
       <min>300</min>
