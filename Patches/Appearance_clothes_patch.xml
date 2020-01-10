@@ -6,19 +6,19 @@
 			<li>Appearance clothes</li>
 			<li>1537867047</li>
 		</mods>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[@Name = "BaseSangheiliPawn"]/inspectorTabs</xpath>
-		<value>
-			<li>AppearanceClothes.ITab_Pawn_AppearanceClothes</li>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Sangheili"]/comps</xpath>
-		<value>
-			<li>
-				<compClass>AppearanceClothes.CompAppearanceClothes</compClass>
-			</li>
-		</value>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name = "BaseSangheiliPawn"]/inspectorTabs</xpath>
+			<value>
+				<li>AppearanceClothes.ITab_Pawn_AppearanceClothes</li>
+			</value>
+		</match>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "Alien_Sangheili"]/comps</xpath>
+			<value>
+				<li>
+					<compClass>AppearanceClothes.CompAppearanceClothes</compClass>
+				</li>
+			</value>
+		</match>
 	</Operation>
 </Patch>

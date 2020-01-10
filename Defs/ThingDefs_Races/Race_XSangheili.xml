@@ -68,7 +68,7 @@
 					<li>Male</li>
                 </alienbodytypes>
 				<customDrawSize>(1.25, 1.25)</customDrawSize>
-				<customHeadDrawSize>(1.25, 1.25)</customHeadDrawSize>
+				<customHeadDrawSize>(1.10, 1.10)</customHeadDrawSize>
                 <alienskincolorgen Class="ColorGenerator_Options">
                     <options>
 						<li>
@@ -137,7 +137,7 @@
     </alienRace>
 	<statBases>
     		<MarketValue>1750</MarketValue>
-    		<MoveSpeed>10</MoveSpeed>
+    		<MoveSpeed>8</MoveSpeed>
     		<MiningSpeed>1.0</MiningSpeed>
     		<HuntingStealth>0.50</HuntingStealth>
     		<Flammability>0.2</Flammability>
