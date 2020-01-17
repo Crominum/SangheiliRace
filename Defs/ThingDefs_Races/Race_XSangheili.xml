@@ -69,6 +69,7 @@
                 </alienbodytypes>
 				<customDrawSize>(1.25, 1.25)</customDrawSize>
 				<customHeadDrawSize>(1.10, 1.10)</customHeadDrawSize>
+				<headOffset>(0, 0.03)</headOffset>
                 <alienskincolorgen Class="ColorGenerator_Options">
                     <options>
 						<li>
