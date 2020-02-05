@@ -39,6 +39,9 @@
 		<baseTraderKinds>
 			<li>Base_Outlander_Standard</li>
 		</baseTraderKinds>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
 		<allowedArrivalTemperatureRange>
 			<min>-50</min>
 			<max>45</max>

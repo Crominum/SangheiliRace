@@ -84,17 +84,17 @@
 						</li>
 						<!-- (grey) pink swan #B2B2B2 -->
 						<li>
-							<weight>3</weight>
+							<weight>4</weight>
 							<only>RGBA(0.7,0.7,0.7,1)</only>
 						</li>
 						<!-- (grey) Nobel #999999 -->
 						<li>
-							<weight>4</weight>
+							<weight>5</weight>
 							<only>RGBA(0.6,0.6,0.6,1)</only>
 						</li>
 						<!-- grey #7F7F7F -->
 						<li>
-							<weight>5</weight>
+							<weight>6</weight>
 							<only>RGBA(0.5,0.5,0.5,1)</only>
 						</li>
 						<!-- dim grey #666666 -->
@@ -114,27 +114,27 @@
 						</li>
 						<!-- (black) nero #191919 -->
 						<li>
-							<weight>2</weight>
+							<weight>1</weight>
 							<only>RGBA(0.1,0.1,0.1,1)</only>
 						</li>
 						<!-- wafer #D6BAAF -->
 						<li>
-							<weight>1</weight>
+							<weight>0.5</weight>
 							<only>RGBA(0.84,0.73,0.69,1)</only>
 						</li>
 						<!-- sour dough #C9AF93 -->
 						<li>
-							<weight>1</weight>
+							<weight>0.5</weight>
 							<only>RGBA(0.79,0.69,0.58,1)</only>
 						</li>
 						<!-- (pinkish/salmon) quicksand #C69989 -->
 						<li>
-							<weight>1</weight>
+							<weight>0.5</weight>
 							<only>RGBA(0.78,0.6,0.54,1)</only>
 						</li>
 						<!-- brandy rose #B28C84 -->
 						<li>
-							<weight>1</weight>
+							<weight>0.5</weight>
 							<only>RGBA(0.70,0.55,0.52,1)</only>
 						</li>
 						<!-- russett #7A5B51 -->
@@ -144,7 +144,7 @@
 						</li>
 						<!-- very dark brown #604235 -->
 						<li>
-							<weight>3</weight>
+							<weight>1</weight>
 							<only>RGBA(0.38,0.26,0.21,1)</only>
 						</li>
 						<!-- espresso #4C3330 -->
@@ -159,7 +159,7 @@
 						</li>
 						<!-- seal brown #2D160F -->
 						<li>
-							<weight>2</weight>
+							<weight>0.5</weight>
 							<only>RGBA(0.18,0.09,0.06,1)</only>
 						</li>
 					</options>
