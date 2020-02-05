@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Sangheili Civilians -->
+
+  <SangheiliColonist.label>移住者</SangheiliColonist.label>
+  <SangheiliColonist.labelPlural>移住者たち</SangheiliColonist.labelPlural>
+
+  <SangheiliKaidon.label>カイドン</SangheiliKaidon.label>
+  <SangheiliKaidon.labelPlural>カイドンたち</SangheiliKaidon.labelPlural>
+
+  <SangheiliTrader.label>商人</SangheiliTrader.label>
+  <SangheiliTrader.labelPlural>商人たち</SangheiliTrader.labelPlural>
+
+  <SangheiliRefugee.label>追放者</SangheiliRefugee.label>
+  <SangheiliRefugee.labelPlural>追放者たち</SangheiliRefugee.labelPlural>
+
+
+  <!-- Sangheili Security -->
+
+  <SangheiliGuard.label>ガード</SangheiliGuard.label>
+  <SangheiliGuard.labelPlural>ガードたち</SangheiliGuard.labelPlural>
+
+
+  <!-- Sangheili Military -->
+
+  <SangheiliMinor.label>下級兵</SangheiliMinor.label>
+  <SangheiliMinor.labelPlural>下級兵たち</SangheiliMinor.labelPlural>
+
+  <SangheiliSpecOps.label>特殊部隊員</SangheiliSpecOps.label>
+  <SangheiliSpecOps.labelPlural>特殊部隊員たち</SangheiliSpecOps.labelPlural>
+
+</LanguageData>

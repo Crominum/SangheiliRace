@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SangheiliFaction.label>サンへイリ部族</SangheiliFaction.label>
+  <SangheiliFaction.description>サンヘイリ族が共同所有する発展した派閥拠点です。</SangheiliFaction.description>
+  <SangheiliFaction.pawnSingular>サンへイリ</SangheiliFaction.pawnSingular>
+  <SangheiliFaction.pawnsPlural>サンへイリたち</SangheiliFaction.pawnsPlural>
+  <SangheiliFaction.leaderTitle>カイドン</SangheiliFaction.leaderTitle>
+
+</LanguageData>

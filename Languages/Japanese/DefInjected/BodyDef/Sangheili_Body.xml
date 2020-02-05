@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sangheili.label>サンへイリ</Sangheili.label>
+  <Sangheili.corePart.parts.left_lung.customLabel>左肺</Sangheili.corePart.parts.left_lung.customLabel>
+  <Sangheili.corePart.parts.right_lung.customLabel>右肺</Sangheili.corePart.parts.right_lung.customLabel>
+  <Sangheili.corePart.parts.left_kidney.customLabel>左腎</Sangheili.corePart.parts.left_kidney.customLabel>
+  <Sangheili.corePart.parts.right_kidney.customLabel>右腎</Sangheili.corePart.parts.right_kidney.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>左眼</Sangheili.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>右眼</Sangheili.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>左耳</Sangheili.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>右耳</Sangheili.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.top_right_mandible.customLabel>右上顎</Sangheili.corePart.parts.Neck.parts.Head.parts.top_right_mandible.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.bottom_right_mandible.customLabel>右下顎</Sangheili.corePart.parts.Neck.parts.Head.parts.bottom_right_mandible.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.top_left_mandible.customLabel>左上顎</Sangheili.corePart.parts.Neck.parts.Head.parts.top_left_mandible.customLabel>
+  <Sangheili.corePart.parts.Neck.parts.Head.parts.bottom_left_mandible.customLabel>左下顎</Sangheili.corePart.parts.Neck.parts.Head.parts.bottom_left_mandible.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.customLabel>左肩</Sangheili.corePart.parts.left_shoulder.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>左鎖骨</Sangheili.corePart.parts.left_shoulder.parts.left_clavicle.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.customLabel>左腕</Sangheili.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>左上腕</Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_humerus.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>左橈骨</Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_radius.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>左手</Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>左小指</Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_pinky.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>左中指</Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_middle_finger.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>左人差指</Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_index_finger.customLabel>
+  <Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>左親指</Sangheili.corePart.parts.left_shoulder.parts.left_arm.parts.left_hand.parts.left_thumb.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.customLabel>右肩</Sangheili.corePart.parts.right_shoulder.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>右鎖骨</Sangheili.corePart.parts.right_shoulder.parts.right_clavicle.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.customLabel>右腕</Sangheili.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>右上腕</Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_humerus.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>右橈骨</Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_radius.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>右手</Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>右小指</Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_pinky.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>右中指</Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_middle_finger.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>右人差指</Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_index_finger.customLabel>
+  <Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>右親指</Sangheili.corePart.parts.right_shoulder.parts.right_arm.parts.right_hand.parts.right_thumb.customLabel>
+  <Sangheili.corePart.parts.left_leg.customLabel>左脚</Sangheili.corePart.parts.left_leg.customLabel>
+  <Sangheili.corePart.parts.left_leg.parts.left_femur.customLabel>左大腿</Sangheili.corePart.parts.left_leg.parts.left_femur.customLabel>
+  <Sangheili.corePart.parts.left_leg.parts.left_tibia.customLabel>左脛骨</Sangheili.corePart.parts.left_leg.parts.left_tibia.customLabel>
+  <Sangheili.corePart.parts.left_leg.parts.left_foot.customLabel>左足</Sangheili.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <Sangheili.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>左第二趾</Sangheili.corePart.parts.left_leg.parts.left_foot.parts.left_second_toe.customLabel>
+  <Sangheili.corePart.parts.left_leg.parts.left_foot.parts.left_toe.customLabel>左第一趾</Sangheili.corePart.parts.left_leg.parts.left_foot.parts.left_toe.customLabel>
+  <Sangheili.corePart.parts.right_leg.customLabel>右脚</Sangheili.corePart.parts.right_leg.customLabel>
+  <Sangheili.corePart.parts.right_leg.parts.right_femur.customLabel>右大腿</Sangheili.corePart.parts.right_leg.parts.right_femur.customLabel>
+  <Sangheili.corePart.parts.right_leg.parts.right_tibia.customLabel>右脛骨</Sangheili.corePart.parts.right_leg.parts.right_tibia.customLabel>
+  <Sangheili.corePart.parts.right_leg.parts.right_foot.customLabel>右足</Sangheili.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <Sangheili.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>右第二趾</Sangheili.corePart.parts.right_leg.parts.right_foot.parts.right_second_toe.customLabel>
+  <Sangheili.corePart.parts.right_leg.parts.right_foot.parts.right_toe.customLabel>右第一趾</Sangheili.corePart.parts.right_leg.parts.right_foot.parts.right_toe.customLabel>
+
+</LanguageData>

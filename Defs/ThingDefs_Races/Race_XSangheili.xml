@@ -35,7 +35,7 @@
     <description>The Sangheili are a species of strong, proud, and intelligent warriors, as well as skilled combat tacticians. Humanoid and reptilian in body structure, they sport quadruple hinged mandibles with conical teeth as well as a binary vascular system.</description>
     <alienRace>
         <generalSettings>
-            <maleGenderProbability>0.8</maleGenderProbability>
+            <maleGenderProbability>0.7</maleGenderProbability>
             <immuneToAge>true</immuneToAge>
 			
 			<!--
@@ -60,6 +60,7 @@
                 <aliencrowntypes>
                     <li>Average_Normal</li>
 					<li>Average_Bulky</li>
+					<li>Average_Other</li>
                 </aliencrowntypes>
                 <alienbodytypes>
 					<li>Hulk</li>
@@ -67,44 +68,99 @@
 					<li>Male</li>
                 </alienbodytypes>
 				<customDrawSize>(1.25, 1.25)</customDrawSize>
-				<customHeadDrawSize>(1.25, 1.25)</customHeadDrawSize>
+				<customHeadDrawSize>(1.10, 1.10)</customHeadDrawSize>
+				<headOffset>(0, 0.03)</headOffset>
                 <alienskincolorgen Class="ColorGenerator_Options">
                     <options>
+						<!-- snow white #E5E5E5 -->
 						<li>
-							<weight>4</weight>
+							<weight>1</weight>
 							<only>RGBA(0.9,0.9,0.9,1)</only>
 						</li>
+						<!-- very light grey #CCCCCC -->
 						<li>
-							<weight>4</weight>
-							<only>RGBA(0.5,0.5,0.5,1)</only>
+							<weight>2</weight>
+							<only>RGBA(0.8,0.8,0.8,1)</only>
 						</li>
+						<!-- (grey) pink swan #B2B2B2 -->
 						<li>
 							<weight>4</weight>
 							<only>RGBA(0.7,0.7,0.7,1)</only>
 						</li>
+						<!-- (grey) Nobel #999999 -->
 						<li>
-							<weight>3</weight>
-							<only>RGBA(0.8,0.8,0.8,1)</only>
+							<weight>5</weight>
+							<only>RGBA(0.6,0.6,0.6,1)</only>
 						</li>
+						<!-- grey #7F7F7F -->
 						<li>
-							<weight>3</weight>
+							<weight>6</weight>
+							<only>RGBA(0.5,0.5,0.5,1)</only>
+						</li>
+						<!-- dim grey #666666 -->
+						<li>
+							<weight>5</weight>
 							<only>RGBA(0.4,0.4,0.4,1)</only>
 						</li>
+						<!-- matterhorn #4C4C4C -->
 						<li>
-							<weight>2</weight>
+							<weight>4</weight>
 							<only>RGBA(0.3,0.3,0.3,1)</only>
 						</li>
+						<!-- night rider #333333 -->
 						<li>
-							<weight>2</weight>
-							<only>RGBA(0.36,0.2,0.09,1)</only>
+							<weight>3</weight>
+							<only>RGBA(0.2,0.2,0.2,1)</only>
 						</li>
+						<!-- (black) nero #191919 -->
 						<li>
-							<weight>2</weight>
+							<weight>1</weight>
+							<only>RGBA(0.1,0.1,0.1,1)</only>
+						</li>
+						<!-- wafer #D6BAAF -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.84,0.73,0.69,1)</only>
+						</li>
+						<!-- sour dough #C9AF93 -->
+						<li>
+							<weight>0.5</weight>
 							<only>RGBA(0.79,0.69,0.58,1)</only>
 						</li>
+						<!-- (pinkish/salmon) quicksand #C69989 -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.78,0.6,0.54,1)</only>
+						</li>
+						<!-- brandy rose #B28C84 -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.70,0.55,0.52,1)</only>
+						</li>
+						<!-- russett #7A5B51 -->
 						<li>
 							<weight>2</weight>
-							<only>RGBA(0.37,0.15,0.02,1)</only>
+							<only>RGBA(0.48,0.36,0.32,1)</only>
+						</li>
+						<!-- very dark brown #604235 -->
+						<li>
+							<weight>1</weight>
+							<only>RGBA(0.38,0.26,0.21,1)</only>
+						</li>
+						<!-- espresso #4C3330 -->
+						<li>
+							<weight>1</weight>
+							<only>RGBA(0.3,0.2,0.19,1)</only>
+						</li>
+						<!-- brown pod #3F1E11 -->
+						<li>
+							<weight>3</weight>
+							<only>RGBA(0.25,0.12,0.07,1)</only>
+						</li>
+						<!-- seal brown #2D160F -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.18,0.09,0.06,1)</only>
 						</li>
 					</options>
                 </alienskincolorgen>
@@ -136,7 +192,7 @@
     </alienRace>
 	<statBases>
     		<MarketValue>1750</MarketValue>
-    		<MoveSpeed>10</MoveSpeed>
+    		<MoveSpeed>8</MoveSpeed>
     		<MiningSpeed>1.0</MiningSpeed>
     		<HuntingStealth>0.50</HuntingStealth>
     		<Flammability>0.2</Flammability>
@@ -152,8 +208,8 @@
     		<LeatherAmount>10</LeatherAmount>
     		<MeatAmount>120</MeatAmount>
     		<HungerRateMultiplier>1.5</HungerRateMultiplier>
-    		<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
-    		<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+    		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+    		<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
     		<ArmorRating_Heat>0.70</ArmorRating_Heat>
     		<CarryingCapacity>125</CarryingCapacity>
     		<Mass>90.0</Mass>

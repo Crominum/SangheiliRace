@@ -3,7 +3,7 @@
 
 	<FactionDef>
 			<defName>SangheiliFaction</defName>
-			<label>Sangheili Tribe</label>
+			<label>Sangheili State</label>
 		<description>A developed colony collectively owned by the Sangheili race.</description>
 		<pawnsPlural>Sangheilis</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -39,6 +39,9 @@
 		<baseTraderKinds>
 			<li>Base_Outlander_Standard</li>
 		</baseTraderKinds>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
 		<allowedArrivalTemperatureRange>
 			<min>-50</min>
 			<max>45</max>

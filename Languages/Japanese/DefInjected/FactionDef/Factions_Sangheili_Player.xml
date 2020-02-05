@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SangheiliPlayerColony.label>サンへイリのコロニー</SangheiliPlayerColony.label>
+  <SangheiliPlayerColony.description>あなた自身の共同体です。</SangheiliPlayerColony.description>
+  <SangheiliPlayerColony.pawnSingular>入植者</SangheiliPlayerColony.pawnSingular>
+  <SangheiliPlayerColony.pawnsPlural>入植者たち</SangheiliPlayerColony.pawnsPlural>
+
+</LanguageData>
