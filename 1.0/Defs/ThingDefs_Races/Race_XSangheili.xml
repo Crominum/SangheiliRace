@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef Name="BaseSangheiliPawn" Abstract="True">
+	<thingClass>Pawn</thingClass>
+	<category>Pawn</category>
+	<selectable>true</selectable>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>Pawn</altitudeLayer>
+	<useHitPoints>false</useHitPoints>
+	<hasTooltip>true</hasTooltip>
+	<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+    <inspectorTabs>
+        <li>ITab_Pawn_Health</li>
+        <li>ITab_Pawn_Needs</li>
+        <li>ITab_Pawn_Character</li>
+        <li>ITab_Pawn_Training</li>
+        <li>ITab_Pawn_Gear</li>
+        <li>ITab_Pawn_Guest</li>
+        <li>ITab_Pawn_Prisoner</li>
+        <li>ITab_Pawn_Social</li>
+        <li>ITab_Pawn_Log</li>
+        <li>ITab_Pawn_FormingCaravan</li>
+    </inspectorTabs>
+    <comps>
+        <li>
+            <compClass>CompAttachBase</compClass>
+        </li>
+    </comps>
+    <drawGUIOverlay>true</drawGUIOverlay>
+</ThingDef>
+
+<AlienRace.ThingDef_AlienRace ParentName="BaseSangheiliPawn">
+    <defName>Alien_Sangheili</defName>
+    <label>Sangheili</label>
+    <description>The Sangheili are a species of strong, proud, and intelligent warriors, as well as skilled combat tacticians. Humanoid and reptilian in body structure, they sport quadruple hinged mandibles with conical teeth as well as a binary vascular system.</description>
+    <alienRace>
+        <generalSettings>
+            <maleGenderProbability>0.7</maleGenderProbability>
+            <immuneToAge>true</immuneToAge>
+			
+			<!--
+			<forcedRaceTraitEntries>
+				<li>
+					<defName>Industriousness</defName>
+					<degree>2</degree>
+					<chance>1</chance>
+				</li>
+			</forcedRaceTraitEntries>
+			-->
+			
+			<disallowedTraits>
+					<li>Greedy</li>
+					<li>Jealous</li>
+					<li>AnnoyingVoice</li>
+					<li>Pyromaniac</li>
+					<li>Wimp</li>
+					<li>DrugDesire</li>
+			</disallowedTraits>
+            <alienPartGenerator>
+                <aliencrowntypes>
+                    <li>Average_Normal</li>
+					<li>Average_Bulky</li>
+					<li>Average_Other</li>
+                </aliencrowntypes>
+                <alienbodytypes>
+					<li>Hulk</li>
+					<li>Female</li>
+					<li>Male</li>
+                </alienbodytypes>
+				<customDrawSize>(1.25, 1.25)</customDrawSize>
+				<customHeadDrawSize>(1.10, 1.10)</customHeadDrawSize>
+				<headOffset>(0, 0.03)</headOffset>
+                <alienskincolorgen Class="ColorGenerator_Options">
+                    <options>
+						<!-- snow white #E5E5E5 -->
+						<li>
+							<weight>1</weight>
+							<only>RGBA(0.9,0.9,0.9,1)</only>
+						</li>
+						<!-- very light grey #CCCCCC -->
+						<li>
+							<weight>2</weight>
+							<only>RGBA(0.8,0.8,0.8,1)</only>
+						</li>
+						<!-- (grey) pink swan #B2B2B2 -->
+						<li>
+							<weight>4</weight>
+							<only>RGBA(0.7,0.7,0.7,1)</only>
+						</li>
+						<!-- (grey) Nobel #999999 -->
+						<li>
+							<weight>5</weight>
+							<only>RGBA(0.6,0.6,0.6,1)</only>
+						</li>
+						<!-- grey #7F7F7F -->
+						<li>
+							<weight>6</weight>
+							<only>RGBA(0.5,0.5,0.5,1)</only>
+						</li>
+						<!-- dim grey #666666 -->
+						<li>
+							<weight>5</weight>
+							<only>RGBA(0.4,0.4,0.4,1)</only>
+						</li>
+						<!-- matterhorn #4C4C4C -->
+						<li>
+							<weight>4</weight>
+							<only>RGBA(0.3,0.3,0.3,1)</only>
+						</li>
+						<!-- night rider #333333 -->
+						<li>
+							<weight>3</weight>
+							<only>RGBA(0.2,0.2,0.2,1)</only>
+						</li>
+						<!-- (black) nero #191919 -->
+						<li>
+							<weight>1</weight>
+							<only>RGBA(0.1,0.1,0.1,1)</only>
+						</li>
+						<!-- wafer #D6BAAF -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.84,0.73,0.69,1)</only>
+						</li>
+						<!-- sour dough #C9AF93 -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.79,0.69,0.58,1)</only>
+						</li>
+						<!-- (pinkish/salmon) quicksand #C69989 -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.78,0.6,0.54,1)</only>
+						</li>
+						<!-- brandy rose #B28C84 -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.70,0.55,0.52,1)</only>
+						</li>
+						<!-- russett #7A5B51 -->
+						<li>
+							<weight>2</weight>
+							<only>RGBA(0.48,0.36,0.32,1)</only>
+						</li>
+						<!-- very dark brown #604235 -->
+						<li>
+							<weight>1</weight>
+							<only>RGBA(0.38,0.26,0.21,1)</only>
+						</li>
+						<!-- espresso #4C3330 -->
+						<li>
+							<weight>1</weight>
+							<only>RGBA(0.3,0.2,0.19,1)</only>
+						</li>
+						<!-- brown pod #3F1E11 -->
+						<li>
+							<weight>3</weight>
+							<only>RGBA(0.25,0.12,0.07,1)</only>
+						</li>
+						<!-- seal brown #2D160F -->
+						<li>
+							<weight>0.5</weight>
+							<only>RGBA(0.18,0.09,0.06,1)</only>
+						</li>
+					</options>
+                </alienskincolorgen>
+            </alienPartGenerator>
+			<chemicalSettings />
+            <humanRecipeImport>true</humanRecipeImport>
+			<maxDamageForSocialfight>8</maxDamageForSocialfight>
+        </generalSettings>
+        <graphicPaths>
+            <li>
+                <head>Things/Pawn/Humanlike/Sangheili/Head/</head>
+				<body>Things/Pawn/Humanlike/Sangheili/Body/</body>
+            </li>
+        </graphicPaths>
+        <hairSettings>
+            <hasHair>false</hasHair>
+        </hairSettings>
+        <relationSettings>
+        </relationSettings>
+		 <thoughtSettings>
+    <cannotReceiveThoughts>
+	  <li>Naked</li>
+	  <li>AteRawFood</li>
+	  <li>AteHumanlikeMeatDirect</li>
+      <li>AteHumanlikeMeatAsIngredient</li>
+      <li>ObservedLayingCorpse</li>
+    </cannotReceiveThoughts>
+	</thoughtSettings>
+    </alienRace>
+	<statBases>
+    		<MarketValue>1750</MarketValue>
+    		<MoveSpeed>8</MoveSpeed>
+    		<MiningSpeed>1.0</MiningSpeed>
+    		<HuntingStealth>0.50</HuntingStealth>
+    		<Flammability>0.2</Flammability>
+    		<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+    		<ComfyTemperatureMax>80</ComfyTemperatureMax>
+    		<ToxicSensitivity>0.5</ToxicSensitivity>
+    		<PsychicSensitivity>0.5</PsychicSensitivity>
+    		<PainShockThreshold>.95</PainShockThreshold>
+    		<MentalBreakThreshold>0.03</MentalBreakThreshold>
+    		<SocialImpact>0.5</SocialImpact>
+    		<GlobalLearningFactor>1.4</GlobalLearningFactor>
+    		<ImmunityGainSpeed>4</ImmunityGainSpeed>
+    		<LeatherAmount>10</LeatherAmount>
+    		<MeatAmount>120</MeatAmount>
+    		<HungerRateMultiplier>1.5</HungerRateMultiplier>
+    		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+    		<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+    		<ArmorRating_Heat>0.70</ArmorRating_Heat>
+    		<CarryingCapacity>125</CarryingCapacity>
+    		<Mass>90.0</Mass>
+    		<ResearchSpeed>2</ResearchSpeed>
+    		<SculptingSpeed>0.5</SculptingSpeed>
+	</statBases>
+  <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+			<li>Blunt</li>
+			<li>Scratch</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>24</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+		  <li>Scratch</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1.2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>24</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.4</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.3</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>150</lifeExpectancy>
+      <leatherDef>Leather_Sangheili</leatherDef>
+	  <nameGenerator>NamerPersonSangheili</nameGenerator>
+      <nameGeneratorFemale>NamerPersonSangheili</nameGeneratorFemale> 
+      <body>Sangheili</body>
+      <bloodDef>FilthBloodSangheili</bloodDef>	
+      <meatColor>(40, 16, 81)</meatColor>
+      <baseBodySize>1.3</baseBodySize>
+      <baseHealthScale>1.5</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>FirstbornSangheiliStage</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>YoungSangheiliStage</def>
+          <minAge>4</minAge>
+        </li>
+		<li>
+          <def>TeenSangheiliStage</def>
+          <minAge>10</minAge>
+        </li>
+        <li>
+          <def>AdultSangheiliStage</def>
+          <minAge>25</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+	  <ageGenerationCurve>
+        <points>
+          <li>(1,0)</li>
+          <li>(10,5)</li>
+          <li>(25,50)</li>
+          <li>(100,30)</li>
+		  <li>(125,5)</li>
+		  <li>(150,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallBionicSpine</li>
+      <li>InstallBionicHeart</li>
+      <li>InstallBionicStomach</li>
+      <li>InstallBionicEar</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallSimpleProstheticHeart</li>
+      <li>InstallCochlearImplant</li>
+      <li>InstallPegLeg</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>ExciseCarcinoma</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+    </recipes>
+</AlienRace.ThingDef_AlienRace>
+
+<AlienRace.RaceSettings>
+    <defName>Sangheili_Settings</defName>
+		<pawnKindSettings>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+						<li>SangheiliRefugee</li>
+                    </kindDefs>
+                    <chance>40.0</chance>
+                </li>
+            </alienrefugeekinds>
+			<startingColonists>
+				<li>
+				<pawnKindEntries>
+					<li>
+                    <kindDefs>
+						<li>SangheiliColonist</li>
+                    </kindDefs>
+                    <chance>10.0</chance>
+					</li>
+				</pawnKindEntries>
+					<factionDefs>
+						<li>SangheiliPlayerColony</li> 
+					</factionDefs>
+				</li>
+			</startingColonists>
+            <alienwandererkinds>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+								<li>SangheiliColonist</li>
+                            </kindDefs>
+                            <chance>50.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>SangheiliPlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+        </pawnKindSettings>
+</AlienRace.RaceSettings>
+
+</Defs>
