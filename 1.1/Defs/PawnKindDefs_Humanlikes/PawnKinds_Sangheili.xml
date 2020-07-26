@@ -297,7 +297,7 @@
   
   <PawnKindDef ParentName="SangheiliMilBase">
     <defName>SangheiliMinor</defName>
-    <label>Minor</label>
+    <label>Soldier</label>
     <combatPower>100</combatPower>
   </PawnKindDef>
   
@@ -306,7 +306,7 @@
     <defName>SangheiliSpecOps</defName>
     <label>Spec Ops</label>
     <combatPower>235</combatPower>
-    <minGenerationAge>100</minGenerationAge>
+    <minGenerationAge>50</minGenerationAge>
     <gearHealthRange>
       <min>0.9</min>
       <max>2.3</max>

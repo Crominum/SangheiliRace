@@ -37,6 +37,31 @@
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef>
+    <defName>SangheiliCivil2</defName>
+    <title>Sangheili Commoner</title>
+    <titleShort>Commoner</titleShort>
+    <baseDescription>[PAWN_nameDef] was born into that of a typical sangheili family and not directly asinged a role to fullfill. Instead that choice was left up to [PAWN_nameDef] as [PAWN_pronoun] could fill in their future where desired.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<maleCommonality>60</maleCommonality>
+	<femaleCommonality>60</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
     <defName>SangheiliOrphan</defName>
     <title>Sangheili Military Orphan</title>
     <titleShort>Orphan</titleShort>
@@ -134,7 +159,7 @@
     <baseDescription>[PAWN_nameDef] was a trainee, training in swordsmanship for [PAWN_possessive] state. [PAWN_pronoun] is taught and beaten from a young age to rise in skill with the honored blade to pave their way to a career with in the military.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
 	<maleCommonality>30</maleCommonality>
-	<femaleCommonality>1</femaleCommonality>
+	<femaleCommonality>5</femaleCommonality>
     <slot>Childhood</slot>
     <skillGains>
       <li>
@@ -308,8 +333,8 @@
 	<titleShort>Minor</titleShort>
     <baseDescription>[PAWN_nameDef] was a typical rank and file warrior of [PAWN_possessive] kind. Minors are the most common class of Sangheili and are also the least experienced out of all of their superiors.</baseDescription>
     <slot>Adulthood</slot>
-		<maleCommonality>40</maleCommonality>
-	<femaleCommonality>40</femaleCommonality>
+		<maleCommonality>50</maleCommonality>
+	<femaleCommonality>50</femaleCommonality>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
@@ -359,7 +384,7 @@
     <baseDescription>[PAWN_nameDef] was part of a group of volunteers who are skilled at operating in airless environments. [PAWN_nameDef] had sought to bring honor to themselves and [PAWN_possessive] state through fierce mobile firepower.</baseDescription>
     <slot>Adulthood</slot>
 		<maleCommonality>30</maleCommonality>
-	<femaleCommonality>20</femaleCommonality>
+	<femaleCommonality>25</femaleCommonality>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
@@ -384,8 +409,8 @@
 	<titleShort>SpecOps</titleShort>
     <baseDescription>Enrolled in one most prestigious field units, [PAWN_nameDef] was sent out to accomplish only the hardest of objectives. [PAWN_pronoun] and [PAWN_possessive] comrades were known as some of the fiercest warriors of the sangheili army.</baseDescription>
     <slot>Adulthood</slot>
-		<maleCommonality>20</maleCommonality>
-	<femaleCommonality>15</femaleCommonality>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
@@ -466,8 +491,8 @@
 	<titleShort>General</titleShort>
     <baseDescription>After proving [PAWN_possessive] prowess and leadership over the years, [PAWN_nameDef] had become a General for [PAWN_possessive] state. [PAWN_pronoun] was tasked with leading hundreds to thousands of [PAWN_possessive] brothers and sisters into enemy territory.</baseDescription>
     <slot>Adulthood</slot>
-		<maleCommonality>15</maleCommonality>
-	<femaleCommonality>5</femaleCommonality>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>15</femaleCommonality>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
@@ -499,8 +524,8 @@
 	<titleShort>Zealot</titleShort>
     <baseDescription>Zealots were tasked with a wide variety of roles in the Sangheili navy. They command ships or whole armies on the ground.</baseDescription>
     <slot>Adulthood</slot>
-		<maleCommonality>15</maleCommonality>
-	<femaleCommonality>10</femaleCommonality>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>15</femaleCommonality>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
@@ -670,7 +695,7 @@
 	<titleShort>Councilor</titleShort>
     <baseDescription>[PAWN_nameDef] was a member of the High Council and a very important political leader of the Sangheili government. [PAWN_pronoun] normally have to serve at least some military time before [PAWN_pronoun] can get this position.</baseDescription>
     <slot>Adulthood</slot>
-		<maleCommonality>15</maleCommonality>
+		<maleCommonality>20</maleCommonality>
 	<femaleCommonality>10</femaleCommonality>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -728,8 +753,8 @@
 	<titleShort>Prisoner</titleShort>
     <baseDescription>Whether from misfortune or dishonorable actions, [PAWN_nameDef] was taken as a prisoner by the Sangheili and had forced into hard labor for the sangheili state.</baseDescription>
     <slot>Adulthood</slot>
-		<maleCommonality>10</maleCommonality>
-	<femaleCommonality>10</femaleCommonality>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
     <spawnCategories>
