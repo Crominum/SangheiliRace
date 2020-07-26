@@ -7,13 +7,26 @@
     <defaultFactionType>SangheiliFaction</defaultFactionType>
     <race>Alien_Sangheili</race>
 
-	<backstoryFilters>
-		<li>
-		<categories>
-			<li>SangheiliBackstory</li>
-		</categories>
-		</li>
-	</backstoryFilters>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>SangheiliBackstory</li>
+        </categories>
+        <commonality>0.9</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.05</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.05</commonality>
+      </li>
+    </backstoryFilters>
 	
     <chemicalAddictionChance>0.005</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
@@ -200,6 +213,32 @@
       <min>0.7</min>
       <max>2.3</max>
     </gearHealthRange>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>SangheiliBackstory</li>
+        </categories>
+        <commonality>0.6</commonality>
+      </li>
+      <li>
+        <categories>
+		  <li>SangheiliSpecialBackstory</li>
+        </categories>
+        <commonality>0.3</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.05</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.05</commonality>
+      </li>
+    </backstoryFilters>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -284,6 +323,20 @@
       <min>1400</min>
       <max>28000</max>
     </weaponMoney>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>SangheiliBackstory</li>
+        </categories>
+        <commonality>0.2</commonality>
+      </li>
+      <li>
+        <categories>
+		  <li>SangheiliSpecialBackstory</li>
+        </categories>
+        <commonality>0.8</commonality>
+      </li>
+    </backstoryFilters>
     <weaponTags>
       <li>NonNeolithicOnlyMelee</li>
       <li>MedievalMeleeBasic</li>

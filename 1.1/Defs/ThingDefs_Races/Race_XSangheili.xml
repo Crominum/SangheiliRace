@@ -35,7 +35,7 @@
     <description>The Sangheili are a species of strong, proud, and intelligent warriors, as well as skilled combat tacticians. Humanoid and reptilian in body structure, they sport quadruple hinged mandibles with conical teeth as well as a binary vascular system.</description>
     <alienRace>
         <generalSettings>
-            <maleGenderProbability>0.7</maleGenderProbability>
+            <maleGenderProbability>0.8</maleGenderProbability>
             <immuneToAge>true</immuneToAge>
 			
 			<!--
