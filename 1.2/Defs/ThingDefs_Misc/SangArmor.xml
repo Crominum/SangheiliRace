@@ -34,7 +34,7 @@
 			<Uranium>5</Uranium>
 		</costList>
 		<graphicData>
-			<texPath>Apparel/Ground/minorhelmet</texPath>
+			<texPath>Apparel/Ground/MinorHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -82,19 +82,13 @@
 			<ArmorRating_Heat>1.15</ArmorRating_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
-		<equippedStatOffsets>
-			<AimingDelayFactor>-.3</AimingDelayFactor>
-			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
-			<PsychicSensitivity>-.2</PsychicSensitivity>
-			<ShootingAccuracyPawn>.25</ShootingAccuracyPawn>
-		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>4</ComponentSpacer>
 			<Plasteel>120</Plasteel>
 			<Uranium>15</Uranium>
 		</costList>
 		<graphicData>
-			<texPath>Apparel/Ground/minor</texPath>
+			<texPath>Apparel/Ground/Minor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -105,9 +99,9 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/MinorArmor/minor</wornGraphicPath>
+			<wornGraphicPath>Apparel/MArmor/MA</wornGraphicPath>
 			<layers>
-				<li>Middle</li>
+				<li>Skin</li>
 			</layers>
 			<tags>
 				<li>Sangheili</li>

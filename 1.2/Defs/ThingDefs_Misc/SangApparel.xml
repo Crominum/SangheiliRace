@@ -38,7 +38,7 @@
 			<Hyperweave>50</Hyperweave>
 		</costList>
 		<graphicData>
-			<texPath>Apparel/Ground/sangsuit</texPath>
+			<texPath>Apparel/Ground/SangSuit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -49,7 +49,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Apparel/Jumpsuit/sangsuit</wornGraphicPath>
+			<wornGraphicPath>Apparel/Jumpsuit/SangSuit</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
