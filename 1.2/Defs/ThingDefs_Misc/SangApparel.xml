@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ======================BODYSUIT BASE====================== -->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>SangUndersuit</defName>
+		<label>Armored Bodysuit</label>
+		<techLevel>Spacer</techLevel>
+		<description>An adjustable and somewhat armored bodysuit that clings and adjusts itself to the user's form. Developed for primary use by the sangheilis as a platform for their armor systems. However, due to its adaptability, other races are able to utilize it as apparel.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-.2</AimingDelayFactor>
+			<ShootingAccuracyPawn>.2</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+			<Hyperweave>50</Hyperweave>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/sangsuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Jumpsuit/sangsuit</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Sangheili</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Sangheili</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+		  <li>RewardSpecial</li>
+		</thingSetMakerTags>
+  </ThingDef>
+</Defs>

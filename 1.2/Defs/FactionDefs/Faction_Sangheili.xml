@@ -13,7 +13,7 @@
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Kaidon</leaderTitle>
 		<startingGoodwill>
-			<min>-10</min>
+			<min>-20</min>
 			<max>40</max>
 		</startingGoodwill>
 		<goodwillDailyGain>0.10</goodwillDailyGain>
@@ -66,8 +66,9 @@
 				<kindDef>Combat</kindDef>
 				<options>
 					<SangheiliGuard>90</SangheiliGuard>
-					<SangheiliMinor>250</SangheiliMinor>
-					<SangheiliSpecOps>100</SangheiliSpecOps>
+					<SangheiliMinor>120</SangheiliMinor>
+					<SangheiliSpecOps>180</SangheiliSpecOps>
+					<SangheiliKaidon>300</SangheiliKaidon>
 				</options>
 			</li>
 			<li>
@@ -80,8 +81,9 @@
 					<Dromedary>2</Dromedary>
 				</carriers>
 				<guards>
-					<SangheiliGuard>90</SangheiliGuard>
-					<SangheiliSpecOps>100</SangheiliSpecOps>
+					<SangheiliGuard>80</SangheiliGuard>
+					<SangheiliMinor>120</SangheiliMinor>
+					<SangheiliSpecOps>200</SangheiliSpecOps>
 				</guards>
 			</li>
 			<li>
@@ -90,14 +92,17 @@
 					<SangheiliColonist>50</SangheiliColonist>
 					<SangheiliGuard>90</SangheiliGuard>
 					<SangheiliMinor>200</SangheiliMinor>
+					<SangheiliKaidon>250</SangheiliKaidon>
 				</options>
 			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
 					<SangheiliColonist>50</SangheiliColonist>
-					<SangheiliGuard>90</SangheiliGuard>
-					<SangheiliMinor>250</SangheiliMinor>
+					<SangheiliGuard>100</SangheiliGuard>
+					<SangheiliSpecOps>170</SangheiliSpecOps>
+					<SangheiliMinor>200</SangheiliMinor>
+					<SangheiliKaidon>250</SangheiliKaidon>
 				</options>
 			</li>
 		</pawnGroupMakers>

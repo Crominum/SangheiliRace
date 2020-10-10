@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ======================MINOR ARMOR====================== -->
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>MinorHelm</defName>
+		<label>Minor Helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>A sleek and sturdy desgined helmet ment to fit the lower ranks of sangheili forces. While not as flashy as other of its race's design, it still protects the wearer from a fair amount of harm.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.8</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.70</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>25</Plasteel>
+			<Uranium>5</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/minorhelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/MinorHelm/Minorhelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Sangheili</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Sangheili</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorMakeableBaseSang">
+		<defName>MinorArmor</defName>
+		<label>Minor Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>A set of armor peices ment to attach to a sangheili's bodysuitfit, fashioned in the lower ranks of sangheili forces. While not as flashy as other of its race's design, it still protects the wearer from a fair amount of harm.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<MaxHitPoints>325</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.15</ArmorRating_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-.3</AimingDelayFactor>
+			<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+			<PsychicSensitivity>-.2</PsychicSensitivity>
+			<ShootingAccuracyPawn>.25</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>120</Plasteel>
+			<Uranium>15</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/minor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/MinorArmor/minor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Sangheili</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Sangheili</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+		  <li>RewardSpecial</li>
+		</thingSetMakerTags>
+  </ThingDef>
+
+</Defs>

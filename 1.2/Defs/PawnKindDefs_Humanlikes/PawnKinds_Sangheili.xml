@@ -120,16 +120,14 @@
     <defName>SangheiliColonist</defName>
     <label>colonist</label>
   </PawnKindDef>
-
+  
   <PawnKindDef ParentName="SangheiliCivBase">
     <defName>SangheiliKaidon</defName>
-    <label>Kaidon</label>
-    <labelPlural>Kaidons</labelPlural>
+	<label>Kadion</label>
+	<minGenerationAge>40</minGenerationAge>
     <factionLeader>true</factionLeader>
-	<minGenerationAge>100</minGenerationAge>
-	<maxGenerationAge>200</maxGenerationAge>
   </PawnKindDef>
-  
+
   <PawnKindDef ParentName="SangheiliCivBase">
     <defName>SangheiliTrader</defName>
     <label>Merchant</label>
