@@ -199,14 +199,28 @@
         <relationSettings>
         </relationSettings>
 		 <thoughtSettings>
-    <cannotReceiveThoughts>
-	  <li>Naked</li>
-	  <li>AteRawFood</li>
-	  <li>AteHumanlikeMeatDirect</li>
-      <li>AteHumanlikeMeatAsIngredient</li>
-      <li>ObservedLayingCorpse</li>
-    </cannotReceiveThoughts>
-	</thoughtSettings>
+			<cannotReceiveThoughts>
+			  <li>Naked</li>
+			  <li>AteRawFood</li>
+			  <li>AteHumanlikeMeatDirect</li>
+			  <li>AteHumanlikeMeatAsIngredient</li>
+			  <li>ObservedLayingCorpse</li>
+			</cannotReceiveThoughts>
+		</thoughtSettings>
+		<raceRestriction>
+			<apparelList>
+				<li>MinorArmor</li>
+				<li>MinorHelm</li>
+				<li>SangUndersuit</li>
+			</apparelList>
+			<researchList>
+				<li>
+					<projects>
+						<li>SangArmor</li>
+					</projects>
+				</li>
+			</researchList>
+		</raceRestriction>
     </alienRace>
 	<statBases>
     		<MarketValue>1750</MarketValue>

@@ -36,6 +36,7 @@
 		<graphicData>
 			<texPath>Apparel/Ground/MinorHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
 		</graphicData>
 		<apparel>
 			<bodyPartGroups>
@@ -46,10 +47,10 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>Sangheili</li>
+				<li>SangheiliArmor</li>
 			</tags>
 			<defaultOutfitTags>
-				<li>Sangheili</li>
+				<li>SangheiliArmor</li>
 			</defaultOutfitTags>
 		</apparel>
 		<thingSetMakerTags>
@@ -90,24 +91,25 @@
 		<graphicData>
 			<texPath>Apparel/Ground/Minor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
 		</graphicData>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
-				<li>Neck</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/MArmor/MA</wornGraphicPath>
 			<layers>
-				<li>Skin</li>
+				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
-				<li>Sangheili</li>
+				<li>SangheiliArmor</li>
 			</tags>
 			<defaultOutfitTags>
-				<li>Sangheili</li>
+				<li>SangheiliArmor</li>
 			</defaultOutfitTags>
 		</apparel>
 		<thingSetMakerTags>

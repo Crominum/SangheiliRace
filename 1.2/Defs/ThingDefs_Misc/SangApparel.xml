@@ -7,7 +7,7 @@
 		<defName>SangUndersuit</defName>
 		<label>Armored Bodysuit</label>
 		<techLevel>Spacer</techLevel>
-		<description>An adjustable and somewhat armored bodysuit that clings and adjusts itself to the user's form. Developed for primary use by the sangheilis as a platform for their armor systems. However, due to its adaptability, other races are able to utilize it as apparel.</description>
+		<description>An adjustable and somewhat armored bodysuit that clings and adjusts itself to the user's form. Developed for primary use by the sangheilis as a platform for their armor systems.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>SangArmor</researchPrerequisite>
@@ -26,6 +26,8 @@
 			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+            <Insulation_Cold>32</Insulation_Cold>
+            <Insulation_Heat>9</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -40,6 +42,7 @@
 		<graphicData>
 			<texPath>Apparel/Ground/SangSuit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>			
 		</graphicData>
 		<apparel>
 			<bodyPartGroups>
@@ -51,13 +54,13 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/Jumpsuit/SangSuit</wornGraphicPath>
 			<layers>
-				<li>Shell</li>
+				<li>OnSkin</li>
 			</layers>
 			<tags>
-				<li>Sangheili</li>
+				<li>SangheiliClothes</li>
 			</tags>
 			<defaultOutfitTags>
-				<li>Sangheili</li>
+				<li>SangheiliClothes</li>
 			</defaultOutfitTags>
 		</apparel>
 		<thingSetMakerTags>

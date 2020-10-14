@@ -32,9 +32,7 @@
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
-      <li>Outlander</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
+	  <li>SangheiliClothes</li>
 	  <!-- 
 	  <li>Military</li>
       <li>IndustrialMilitaryAdvanced</li>
@@ -82,6 +80,11 @@
       <li>MedievalMeleeBasic</li>
 	  <li>Covenant_PlasmaPistol</li>
     </weaponTags>
+	<apparelTags>
+	  <li>Outlander</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+	</apparelTags>
     <techHediffsMoney>
       <min>200</min>
       <max>300</max>
@@ -238,8 +241,8 @@
       </li>
     </backstoryFilters>
     <apparelTags>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
+	  <li>SangheiliClothes</li>
+	  <li>SangheiliArmor</li>
       <li>IndustrialMilitaryAdvanced</li>
       <li>BeltDefensePop</li>
     </apparelTags>
