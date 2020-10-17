@@ -30,6 +30,9 @@
             <Insulation_Heat>9</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-.2</AimingDelayFactor>
 			<ShootingAccuracyPawn>.2</ShootingAccuracyPawn>

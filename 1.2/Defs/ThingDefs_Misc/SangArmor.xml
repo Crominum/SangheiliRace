@@ -28,6 +28,9 @@
 			<ArmorRating_Heat>0.70</ArmorRating_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
 			<Plasteel>25</Plasteel>
@@ -83,6 +86,9 @@
 			<ArmorRating_Heat>1.15</ArmorRating_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
 		<costList>
 			<ComponentSpacer>4</ComponentSpacer>
 			<Plasteel>120</Plasteel>
