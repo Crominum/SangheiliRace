@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef Abstract="True" Name="SangheiliFactionBase">
+		<colorSpectrum>
+		    <li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+	</FactionDef>
+  
+	<FactionDef Parent="SangheiliFactionBase">
+		<defName>SangheiliPlayerColony</defName>
+		<label>Sangheili Colony</label>
+		<description>Your own community.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Sangheili</basicMemberKind>
+		
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		
+		<techLevel>Spacer</techLevel>
+		<backstoryCategories>
+			<li>SangheiliBackstory</li>
+		</backstoryCategories>
+		<homeIconPath>World/SangheiliBase</homeIconPath>
+		<expandingIconTexture>World/SangheiliBase</expandingIconTexture>
+		
+		<geneticVariance>1</geneticVariance>
+		<pawnNameMaker>NamerPersonSangheili</pawnNameMaker>
+		
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<hairTags>
+			<li>Urban</li>
+			<li>SangheiliHair</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+
+	</FactionDef>
+  
+</Defs>

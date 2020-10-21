@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Sangheili</name>
+	<name>Sangheilis</name>
 	<author>Crominum and Remi</author>
 	<url></url>
-	<supportedVersions><li>1.0</li></supportedVersions>
-	<description></description>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>
+	This mods currently adds only the playable sangheilis, which brings some bolstered stats to endure the madness of the Rim.
+
+	Hailing originally from the Halo universe, the Sangheili are digitigrade biped saurians with tall, muscular bodies and elongated heads bearing a distinct set four mandibles. Commonly known as 'Elites' by other races, they're known for their warrior culture and combat skill. Their jaws are quadruple-hinged with an upper jaw and a greatly reduced lower jaw which are four mandible-like "lips." Sangheili have two hearts that circulate the signature purple blood through their veins.
+	</description>
+	<packageId>Crominum.Sangheilis</packageId>
 </ModMetaData>

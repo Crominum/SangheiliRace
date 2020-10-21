@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonSangheili</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Sangheilifirst] [Sangheililast]</li>
+        <li>name->[Sangheilifirst] [badassSangheili]</li>
+        <li>name->'[badassSangheili]'</li>
+        <li>name->'[badassSangheili]' [Sangheililast]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Sangheilifirst</keyword>
+          <path>Sangheili_Names/Sangheili</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Sangheililast</keyword>
+          <path>Sangheili_Names/Sangheililast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassSangheili</keyword>
+          <path>Sangheili_Names/Concepts_XenSangheili</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>roman</keyword>
+          <path>Words/Misc/Numbers_SmallRoman</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
+
