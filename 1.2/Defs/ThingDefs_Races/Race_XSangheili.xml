@@ -211,6 +211,10 @@
 			<apparelList>
 				<li>MinorArmor</li>
 				<li>MinorHelm</li>
+				<li>MajorArmor</li>
+				<li>MajorHelm</li>
+				<li>UltraArmor</li>
+				<li>UltraHelm</li>
 				<li>SangUndersuit</li>
 			</apparelList>
 			<researchList>
@@ -359,6 +363,10 @@
       </hediffGiverSets>
     </race>
     <recipes>
+      <li>InstallArchotechEye</li>
+      <li>InstallArchotechArm</li>
+      <li>InstallArchotechLeg</li>
+      <li>InstallPowerClaw</li>
       <li>InstallBionicEye</li>
       <li>InstallBionicArm</li>
       <li>InstallBionicLeg</li>

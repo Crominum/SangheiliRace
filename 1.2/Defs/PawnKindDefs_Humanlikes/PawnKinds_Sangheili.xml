@@ -129,6 +129,73 @@
 	<label>Kadion</label>
 	<minGenerationAge>40</minGenerationAge>
     <factionLeader>true</factionLeader>
+    <apparelTags>
+      <li>SpacerMilitary</li>
+      <li>BeltDefensePop</li>
+	  <li>SangheiliArmorLeader</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>5000</min>
+      <max>40000</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>5000</min>
+      <max>40000</max>
+    </weaponMoney>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>SangheiliBackstory</li>
+        </categories>
+        <commonality>0.2</commonality>
+      </li>
+      <li>
+        <categories>
+		  <li>SangheiliSpecialBackstory</li>
+        </categories>
+        <commonality>0.8</commonality>
+      </li>
+    </backstoryFilters>
+    <weaponTags>
+      <li>NonNeolithicOnlyMelee</li>
+	  <li>MedievalMeleeAdvanced</li>
+	  <li>GunHeavy</li>
+	  <li>IndustrialGunAdvanced</li>
+	  <li>SpacerGun</li>
+      <li>MechanoidGunMedium</li>
+	  <li>Covenant_NeedleRifle</li>
+	  <li>Covenant_BeamRifle</li>
+	  <li>Covenant_FuelRodCannon</li>
+	  <li>Covenant_ConcussionRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>300</min>
+      <max>10000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+	  <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+    <techHediffsChance>0.08</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>1800</min>
+            <max>4000</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>MedicineUltratech</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="SangheiliCivBase">
@@ -315,6 +382,7 @@
     <apparelTags>
       <li>SpacerMilitary</li>
       <li>BeltDefensePop</li>
+	  <li>SangheiliArmorSpecial</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
