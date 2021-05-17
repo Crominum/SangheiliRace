@@ -251,7 +251,7 @@
 		<defName>UltraHelm</defName>
 		<label>Ultra Helmet</label>
 		<techLevel>Spacer</techLevel>
-		<description></description>
+		<description>Distinctive in shape and color, this helmet design is a symbol of a sangheili's abilites in battle. Only worn by the top tier of units in the sangheili military, this helmet sports superb protection from most forms of incoming damage.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>SangArmor</researchPrerequisite>
@@ -309,7 +309,7 @@
 		<defName>UltraArmor</defName>
 		<label>Ultra Armor</label>
 		<techLevel>Spacer</techLevel>
-		<description></description>
+		<description>Adorned and reinforced, this distinctive armor denoates a true elite of the sangheili military. The design remains in line with the rest of sangheili asthethic, while it's patterns and shape of it plating seperates itself from the rest.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>SangArmor</researchPrerequisite>
@@ -356,9 +356,11 @@
 				<li>Middle</li>
 			</layers>
 			<tags>
+				<li>SangheiliArmorSpecial</li>
 				<li>SangheiliArmorLeader</li>
 			</tags>
 			<defaultOutfitTags>
+				<li>SangheiliArmorSpecial</li>
 				<li>SangheiliArmorLeader</li>
 			</defaultOutfitTags>
 		</apparel>
