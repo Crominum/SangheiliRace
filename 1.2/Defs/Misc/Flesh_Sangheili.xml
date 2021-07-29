@@ -19,7 +19,7 @@
 			</li>
 			<li>
 				<texture>Things/Pawn/Wounds/WoundC</texture>
-				<color>40,18,79</color>
+				<color>39,15,85</color>
 			</li>
 		</wounds>   
 	</FleshTypeDef>

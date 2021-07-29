@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Culture-specific content -->
+
+  <RulePackDef>
+    <defName>NamerDeitySangheili</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[syl]</li>
+
+        <li>syl->Redemption</li>
+        <li>syl->Hopeful Legacy</li>
+        <li>syl->Desire</li>
+        <li>syl->Intricate Design</li>
+        <li>syl->Renewed Faith</li>
+        <li>syl->Infinite Knowledge</li>
+        <li>syl->Eternal Happiness</li>
+        <li>syl->Twisted Fate</li>
+        <li>syl->Lost Vision</li>
+        <li>syl->Judgment</li>
+        <li>syl->Floating Worlds</li>
+        <li>syl->Curiosity</li>
+        <li>syl->Clarity and Purity</li>
+        <li>syl->Planetary Life</li>
+        <li>syl->Will and Might</li>
+        <li>syl->Past Legacy</li>
+        <li>syl->Stability and Balance</li>
+        <li>syl->Prominence</li>
+        <li>syl->Eternal Knowledge</li>
+        <li>syl->Reflection and Retrospection</li>
+        <li>syl->Reborn Planet</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>
