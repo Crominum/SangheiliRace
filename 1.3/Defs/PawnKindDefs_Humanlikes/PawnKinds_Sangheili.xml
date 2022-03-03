@@ -130,7 +130,7 @@
   
   <PawnKindDef ParentName="SangheiliCivBase">
     <defName>SangheiliKaidon</defName>
-	<label>Kadion</label>
+	<label>Kaidon</label>
 	<minGenerationAge>40</minGenerationAge>
     <factionLeader>true</factionLeader>
 	<initialResistanceRange>15~25</initialResistanceRange>

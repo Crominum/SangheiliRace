@@ -6,7 +6,7 @@
     <description>The Sangheili are a species of strong, proud, and intelligent warriors, as well as skilled combat tacticians. Humanoid and reptilian in body structure, they sport quadruple hinged mandibles with conical teeth as well as a binary vascular system.</description>
     <alienRace>
         <generalSettings>
-            <maleGenderProbability>0.8</maleGenderProbability>
+            <maleGenderProbability>0.6</maleGenderProbability>
             <immuneToAge>true</immuneToAge>
 			
 			<!--
@@ -224,22 +224,22 @@
     </alienRace>
 	<statBases>
     		<MarketValue>1750</MarketValue>
-    		<MoveSpeed>8</MoveSpeed>
+    		<MoveSpeed>6</MoveSpeed>
     		<MiningSpeed>1.0</MiningSpeed>
     		<HuntingStealth>0.50</HuntingStealth>
-    		<Flammability>0.2</Flammability>
-    		<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-    		<ComfyTemperatureMax>80</ComfyTemperatureMax>
+    		<Flammability>0.6</Flammability>
+    		<ComfyTemperatureMin>0</ComfyTemperatureMin>
+    		<ComfyTemperatureMax>60</ComfyTemperatureMax>
     		<ToxicSensitivity>0.5</ToxicSensitivity>
     		<PsychicSensitivity>0.5</PsychicSensitivity>
-    		<PainShockThreshold>.95</PainShockThreshold>
-    		<MentalBreakThreshold>0.03</MentalBreakThreshold>
+    		<PainShockThreshold>.9</PainShockThreshold>
+    		<MentalBreakThreshold>0.20</MentalBreakThreshold>
     		<SocialImpact>0.5</SocialImpact>
     		<GlobalLearningFactor>1.4</GlobalLearningFactor>
     		<ImmunityGainSpeed>4</ImmunityGainSpeed>
     		<LeatherAmount>10</LeatherAmount>
     		<MeatAmount>120</MeatAmount>
-    		<HungerRateMultiplier>1.5</HungerRateMultiplier>
+    		<HungerRateMultiplier>1.2</HungerRateMultiplier>
     		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
     		<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
     		<ArmorRating_Heat>0.70</ArmorRating_Heat>
