@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- EXCLUSIVE CHILDHOOD BACKSTORIES -->
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliCivil</defName>
+    <title>Sangheili commoner</title>
+    <titleShort>Commoner</titleShort>
+    <baseDesc>[PAWN_nameDef] had been raised in their family's common room and given no special treatment. Given core teachings in civility and military training, they were left to peruse whatever role they aspired for in society.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>1</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Crafting</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliCivil2</defName>
+    <title>Sangheili commoner</title>
+    <titleShort>Commoner</titleShort>
+    <baseDesc>[PAWN_nameDef] was born into that of a typical sangheili family and not directly assigned a role to fulfill. Instead that choice was left up to [PAWN_nameDef] as [PAWN_pronoun] could fill in their future where desired and by merit</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<maleCommonality>50</maleCommonality>
+	<femaleCommonality>50</femaleCommonality>
+  <shuffleable>true</shuffleable>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliOrphan</defName>
+    <title>Military orphan</title>
+    <titleShort>Orphan</titleShort>
+    <baseDesc>[PAWN_nameDef] had shared the common fate of [PAWN_possessive] brothers and sisters, had lost or been abandoned [PAWN_possessive] parents and ended up forced into military training from a young age.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<maleCommonality>50</maleCommonality>
+	<femaleCommonality>50</femaleCommonality>
+  <shuffleable>true</shuffleable>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>-1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliKidScav</defName>
+    <title>Youngling scavenger</title>
+    <titleShort>Scavenger</titleShort>
+    <baseDesc>Scowering though what most would find detritus, [PAWN_nameDef] found ardor in digging through old wreckages left over from conflict.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<maleCommonality>60</maleCommonality>
+	<femaleCommonality>40</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+	  <li>
+        <key>Crafting</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Mining</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliKidDis</defName>
+    <title>Disgraced sangheili</title>
+    <titleShort>Disgraced</titleShort>
+    <baseDesc>[PAWN_nameDef] was born into a shunned family. Lucky enough to not be enslaved as a child, [PAWN_possessive] upbringing was still not without it's fair share of cruelty. This hardened [PAWN_nameDef] as [PAWN_pronoun] fought tooth and nail to gain any reputation.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<maleCommonality>50</maleCommonality>
+	<femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliSlave</defName>
+    <title>Enslaved child</title>
+    <titleShort>Slave</titleShort>
+    <baseDesc>[PAWN_nameDef] was never placed in the military and were instead forced into slavery from a young age. [PAWN_pronoun] was told they would never ascend into honorable roles than being beaten down by [PAWN_possessive] masters and forced into labor.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<maleCommonality>50</maleCommonality>
+	<femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Construction</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Mining</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>-1</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>-3</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliKidFarmer</defName>
+    <title>Youngling farmer</title>
+    <titleShort>Farmer</titleShort>
+    <baseDesc>[PAWN_nameDef] lived among an intact family that prioritized producing crop for [PAWN_possessive] state. [PAWN_pronoun] was raised to have no aspirations beyond growing food for [PAWN_possessive] brethren.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>50</maleCommonality>
+	<femaleCommonality>50</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Plants</key>
+        <value>4</value>
+      </li>
+	  <li>
+        <key>Crafting</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>-2</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>-2</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliTrainee</defName>
+    <title>Swordsman trainee</title>
+    <titleShort>Trainee</titleShort>
+    <baseDesc>[PAWN_nameDef] was a trainee, training in swordsmanship for [PAWN_possessive] state. [PAWN_pronoun] was taught and beaten from a young age to rise in skill with the honored blade to pave their way to a career with in the military.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+	<maleCommonality>80</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>1</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Crafting</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<!-- EXCLUSIVE ADULTHOOD BACKSTORIES -->
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliFarmer</defName>
+    <title>Stateside farmer</title>
+    <titleShort>Farmer</titleShort>
+    <baseDesc>[PAWN_possessive] family had focused on producing crop for [PAWN_possessive] state after war had prompted a stark demand for such a role. [PAWN_nameDef] luckily had quite the green thumb, which had left [PAWN_pronoun] mark among the respected farmers of [PAWN_possessive] community.</baseDesc>
+    <shuffleable>true</shuffleable>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Plants</key>
+        <value>6</value>
+      </li>
+	  <li>
+        <key>Crafting</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliMerchant</defName>
+    <title>Sangheili merchant</title>
+    <titleShort>Merchant</titleShort>
+    <baseDesc>[PAWN_nameDef] found a knack by the way of trade. After the collapse of the Covenant, their kind found newfound opportunity for expansion and diplomacy with other factions. One of the forefronts was the flow of materials, and [PAWN_nameDef] could find a fair price for everything that could be traded.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>50</maleCommonality>
+	  <femaleCommonality>50</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+	  <li>
+        <key>Social</key>
+        <value>5</value>
+      </li>
+	  <li>
+        <key>Crafting</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Construction</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliCivDoc</defName>
+    <title>Sangheili doctor</title>
+    <titleShort>Doctor</titleShort>
+    <baseDesc>Once a shunned practice, the aftermath of The Great Schism opened the door for medical practice to be held in higher standard. [PAWN_nameDef] was one of many to show that is honor is not held by one's blood, but to fight another day on the battlefield.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Medicine</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliArmorer</defName>
+    <title>Sangheili weaponsmith</title>
+    <titleShort>Weaponsmith</titleShort>
+    <baseDesc>[PAWN_nameDef] had chosen his path in life as forger of weapons of war. Finding fondness creating armaments that [PAWN_pronoun] could rely on in the battlefield.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>30</femaleCommonality>
+    <slot>Adulthood</slot>
+    <skillGains>
+	  <li>
+        <key>Crafting</key>
+        <value>4</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliMerc</defName>
+    <title>Sangheili mercenary</title>
+    <titleShort>Mercenary</titleShort>
+    <baseDesc>Unsatisfied or outcast, [PAWN_nameDef] had left [PAWN_pronoun] original state and took up freelance work accepting open mercenary contracts. Coming from a militarized culture proved make it quite the easy career for [PAWN_nameDef] as they had built quickly built a reputation for themselves among several rim colonies.</baseDesc>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+		<maleCommonality>20</maleCommonality>
+	  <femaleCommonality>20</femaleCommonality>
+    <shuffleable>true</shuffleable>
+    <slot>Adulthood</slot>
+    <skillGains>
+	  <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliMinor</defName>
+    <title>Sangheili minor</title>
+	<titleShort>Minor</titleShort>
+    <baseDesc>[PAWN_nameDef] was a typical rank and file warrior of [PAWN_possessive] kind. Minors are the most common class of Sangheili and are also the least experienced out of all of their superiors.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>50</maleCommonality>
+	  <femaleCommonality>50</femaleCommonality>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+	  <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliSwordsman</defName>
+    <title>Sangheili swordsman</title>
+	<titleShort>Swordsman</titleShort>
+    <baseDesc>[PAWN_nameDef] was a highly trained warrior who had been taught how to wield an energy sword with great prowess. As a result, [PAWN_pronoun] had grown to prefer the blade over any form of ranged weaponry.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+	  <femaleCommonality>15</femaleCommonality>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+	  <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>-2</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>8</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliRanger</defName>
+    <title>Sangheili ranger</title>
+	<titleShort>Ranger</titleShort>
+    <baseDesc>[PAWN_nameDef] was part of a group of volunteers who are skilled at operating in airless environments. [PAWN_nameDef] had sought to bring honor to themselves and [PAWN_possessive] state through fierce mobile firepower.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+	  <femaleCommonality>25</femaleCommonality>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+	  <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	    <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliSpec</defName>
+    <title>Sangheili spec ops</title>
+	<titleShort>SpecOps</titleShort>
+    <baseDesc>Enrolled in one most prestigious field units, [PAWN_nameDef] was sent out to accomplish only the hardest of objectives. [PAWN_pronoun] and [PAWN_possessive] comrades were known as some of the fiercest warriors of the sangheili army.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>25</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>10</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>10</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliMed</defName>
+    <title>Sangheili medic</title>
+	<titleShort>Medic</titleShort>
+    <baseDesc>Allowed into the army after The Great Schism, Sangheili medics seek to repair those who have been injured on the battlefield. While shameful in the past, [PAWN_nameDef] sought to demonstrate that [PAWN_possessive] honor is held in the battle with death itself.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>30</maleCommonality>
+	<femaleCommonality>20</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Medicine</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliHonor</defName>
+    <title>Sangheili honorguard</title>
+	<titleShort>Honorguard</titleShort>
+    <baseDesc>The Sangheili Honor Guardsmen are personal guards and warriors to council members in the Sangheili political environment. [PAWN_nameDef] was tasked to defend [PAWN_possessive] leaders and state at all costs.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>15</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>5</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliGeneral</defName>
+    <title>Sangheili general</title>
+	<titleShort>General</titleShort>
+    <baseDesc>After proving [PAWN_possessive] prowess and leadership over the years, [PAWN_nameDef] had become a General for [PAWN_possessive] state. [PAWN_pronoun] was tasked with leading hundreds to thousands of [PAWN_possessive] brothers and sisters into enemy territory.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	  <femaleCommonality>15</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>5</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>7</value>
+      </li>
+    </skillGains>
+	<workDisables>
+		<li>ManualDumb</li>
+	</workDisables>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliZealot</defName>
+    <title>Sangheili zealot</title>
+	<titleShort>Zealot</titleShort>
+    <baseDesc>Zealots were tasked with a wide variety of roles in the Sangheili navy. They command ships or whole armies on the ground.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>25</maleCommonality>
+	<femaleCommonality>15</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Intellectual</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliCommand</defName>
+    <title>Sangheili supreme commander</title>
+	<titleShort>Commander</titleShort>
+    <baseDesc>Commander of a large fleet of [PAWN_possessive] own, [PAWN_nameDef] has had many ships that fell under [PAWN_pronoun] control as well as the knowledge and skill to lead [PAWN_possessive] troops.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>10</maleCommonality>
+	<femaleCommonality>5</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>10</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>10</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>7</value>
+      </li>
+	  <li>
+        <key>Intellectual</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+	<workDisables>
+		<li>ManualDumb</li>
+	</workDisables>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliAdmiral</defName>
+    <title>Sangheili imperial admiral</title>
+	<titleShort>Admiral</titleShort>
+    <baseDesc>[PAWN_nameDef] was the leader of the Sangheili navy in its entirety and has complete control over all of its forces. [PAWN_pronoun] commanded everything that goes in and out of the navy and typically only one of them were known to exist at a time.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>5</maleCommonality>
+	<femaleCommonality>1</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>8</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>6</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>10</value>
+      </li>
+	  <li>
+        <key>Intellectual</key>
+        <value>12</value>
+      </li>
+    </skillGains>
+	<workDisables>
+		<li>ManualDumb</li>
+	</workDisables>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliArbiter</defName>
+    <title>Sangheili arbiter</title>
+	  <titleShort>Arbiter</titleShort>
+    <baseDesc>In times of crisis, a sangheili is given the rank of Arbiter to take control of the military and use their high skill to put an end to whatever problem has arisen. It is one of the most ancient ranks in the sangheili military and [PAWN_nameDef] had donned the mantle.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>3</maleCommonality>
+	<femaleCommonality>1</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Hulk</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>SangheiliSpecialBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>12</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>10</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>4</value>
+      </li>
+	  <li>
+        <key>Intellectual</key>
+        <value>8</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliKaidon</defName>
+    <title>Sangheili kaidon</title>
+	<titleShort>Kaidon</titleShort>
+    <baseDesc>[PAWN_nameDef] was a leader of [PAWN_possessive] state, elected by the state council to act as their political ruler.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	  <femaleCommonality>10</femaleCommonality>
+	  <bodyTypeFemale>Female</bodyTypeFemale>
+	  <bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliCouncilor</defName>
+    <title>Sangheili high councilor</title>
+	<titleShort>Councilor</titleShort>
+    <baseDesc>[PAWN_nameDef] was a member of the High Council and a very important political leader of the Sangheili government. [PAWN_pronoun] normally have to serve at least some military time before [PAWN_pronoun] can get this position.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>20</maleCommonality>
+	<femaleCommonality>10</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+	  <li>
+        <key>Social</key>
+        <value>8</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliSlaveAdult</defName>
+    <title>Enslaved sangheili</title>
+	<titleShort>Slave</titleShort>
+    <baseDesc>[PAWN_nameDef] somehow survived most of [PAWN_possessive] lives under the boots of [PAWN_possessive] masters through sheer determination. Luckly [PAWN_possessive] strength and ferocity lead to [PAWN_possessive] freedom or survival.</baseDesc>
+    <slot>Adulthood</slot>
+		<maleCommonality>15</maleCommonality>
+	<femaleCommonality>15</femaleCommonality>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Shooting</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Mining</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+	<workDisables>				
+		<li>Intellectual</li>
+		<li>Artistic</li>
+	</workDisables>	
+</AlienRace.AlienBackstoryDef>
+
+<AlienRace.AlienBackstoryDef>
+    <defName>SangheiliPrisoner</defName>
+    <title>Sangheili prisoner</title>
+	<titleShort>Prisoner</titleShort>
+    <baseDesc>Whether from misfortune or dishonorable actions, [PAWN_nameDef] was taken as a prisoner by the Sangheili and had forced into hard labor for the sangheili state.</baseDesc>
+    <slot>Adulthood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <spawnCategories>
+      <li>SangheiliBackstory</li>
+	  <li>Outlander</li>
+	  <li>Offworld</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <key>Construction</key>
+        <value>2</value>
+      </li>
+	  <li>
+        <key>Melee</key>
+        <value>1</value>
+      </li>
+	  <li>
+        <key>Mining</key>
+        <value>3</value>
+      </li>
+	  <li>
+        <key>Shooting</key>
+        <value>-3</value>
+      </li>
+	  <li>
+        <key>Intellectual</key>
+        <value>-2</value>
+      </li>
+    </skillGains>
+</AlienRace.AlienBackstoryDef>
+</Defs>

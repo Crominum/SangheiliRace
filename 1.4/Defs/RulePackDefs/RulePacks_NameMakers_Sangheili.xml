@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerSangheili</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[pack1] [pack2]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack1</keyword>
+          <path>Sangheili_Names/Sangheili</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>pack2</keyword>
+          <path>Sangheili_Names/Sangheililast</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Deity Name Maker -->
+
+  	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>NamerDeitySangheili</defName>
+    <include>
+        <li>NamerDeityGlobal</li>
+    </include>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[SangheiliNameDeity]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>SangheiliNameDeity->Sangheili_Names/DeitySangheili</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+
+ <!-- <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>NamerDeitySangheili2</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[syl]</li>
+
+        <li>syl->Redemption</li>
+        <li>syl->Hopeful Legacy</li>
+        <li>syl->Desire</li>
+        <li>syl->Intricate Design</li>
+        <li>syl->Renewed Faith</li>
+        <li>syl->Infinite Knowledge</li>
+        <li>syl->Eternal Happiness</li>
+        <li>syl->Twisted Fate</li>
+        <li>syl->Lost Vision</li>
+        <li>syl->Judgment</li>
+        <li>syl->Floating Worlds</li>
+        <li>syl->Curiosity</li>
+        <li>syl->Clarity and Purity</li>
+        <li>syl->Planetary Life</li>
+        <li>syl->Will and Might</li>
+        <li>syl->Past Legacy</li>
+        <li>syl->Stability and Balance</li>
+        <li>syl->Prominence</li>
+        <li>syl->Eternal Knowledge</li>
+        <li>syl->Reflection and Retrospection</li>
+        <li>syl->Reborn Planet</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef> --> 
+
+  <!-- Deity Type -->
+
+  <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>DeityTypeMakerSangheili</defName>
+		<include>
+			<li>DeityTypeMakerGlobal</li>
+		</include>
+	</RulePackDef>
+
+ <!--<RulePackDef>
+    <defName>DeityTypeMakerSangheiliG</defName>
+    <include>
+      <li>GlobalUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->[god] of [memeConcept]</li>
+
+        <li>god->Choice</li>
+        <li>god->Gravity</li>
+        <li>god->Aspiration</li>
+		    <li>god->Harmony</li>
+        <li>god->Tone</li>
+        <li>god->Echo</li>
+        <li>god->Legacy</li>
+		    <li>god->Hope</li>
+        <li>god->Bringer</li>
+        <li>god->Ambition</li>
+        <li>god->Gift</li>
+		    <li>god->Divinity</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef> --> 
+
+  <!-- Culture-specific content -->
+
+</Defs>

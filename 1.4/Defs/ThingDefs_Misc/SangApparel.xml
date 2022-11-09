@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ======================BODYSUIT BASE====================== -->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>SangUndersuit</defName>
+		<label>Armored Bodysuit</label>
+		<techLevel>Spacer</techLevel>
+		<description>An adjustable and somewhat armored bodysuit that clings and adjusts itself to the user's form. Developed for primary use by the sangheilis as a platform for their armor systems.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+            <Insulation_Cold>32</Insulation_Cold>
+            <Insulation_Heat>9</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-.2</AimingDelayFactor>
+			<ShootingAccuracyPawn>.2</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+			<Hyperweave>50</Hyperweave>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/SangSuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>			
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Jumpsuit/SangSuit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>SangheiliUnderArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>SangheiliUnderArmor</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+		  <li>RewardSpecial</li>
+		</thingSetMakerTags>
+  </ThingDef>
+</Defs>

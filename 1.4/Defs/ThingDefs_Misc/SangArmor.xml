@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ======================MINOR ARMOR====================== -->
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>MinorHelm</defName>
+		<label>Minor Helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>A sleek and sturdy desgined helmet ment to fit the lower ranks of sangheili forces. While not as flashy as other of its race's design, it still protects the wearer from a fair amount of harm.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.8</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.70</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>25</Plasteel>
+			<Uranium>5</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/MinorHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/MinorHelm/Minorhelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>SangheiliMinorArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>SangheiliMinorArmor</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorMakeableBaseSang">
+		<defName>MinorArmor</defName>
+		<label>Minor Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>A set of armor peices ment to attach and hug to a sangheili's form, fashioned in blue for the lower ranks of sangheili forces. While not as flashy as other of its race's design, it still protects the wearer from a fair amount of harm.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<MaxHitPoints>325</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.15</ArmorRating_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<costList>
+			<ComponentSpacer>3</ComponentSpacer>
+			<Plasteel>120</Plasteel>
+			<Uranium>10</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/Minor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/MinorArmor/MA</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>SangheiliMinorArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>SangheiliMinorArmor</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+		  <li>RewardSpecial</li>
+		</thingSetMakerTags>
+  </ThingDef>
+  
+<!-- ======================MAJOR ARMOR====================== -->
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>MajorHelm</defName>
+		<label>Major Helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>Similar to their counterparts, this is reinforced design of the minor helmet meant to fit the some of the commanding ranks of sangheili ground forces. Sporting a distinct red hue of color to it's visage, this is one piece of a set of armor denoting a warrior's rank and capabilities in combat.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>11</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>23000</WorkToMake>
+			<MaxHitPoints>175</MaxHitPoints>
+			<Mass>1.8</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+			<Uranium>5</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/MajorHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/MajorHelm/Majorhelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>SangheiliMajorArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>SangheiliMajorArmor</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorMakeableBaseSang">
+		<defName>MajorArmor</defName>
+		<label>Major Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>A set of armor peices simliar in design and fit to a sangheili minor's armor. This rig seems to be of an upgraded design, sporting reinforced plating and better sub systems designed to protect higher ranking leaders for sangheili ground forces.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>11</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<costList>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>150</Plasteel>
+			<Uranium>15</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/Major</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/MajorArmor/MAJA</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>SangheiliMajorArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>SangheiliMajorArmor</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+		  <li>RewardSpecial</li>
+		</thingSetMakerTags>
+  </ThingDef>
+
+<!-- ======================ULTRA ARMOR====================== -->
+
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>UltraHelm</defName>
+		<label>Ultra Helmet</label>
+		<techLevel>Spacer</techLevel>
+		<description>Distinctive in shape and color, this helmet design is a symbol of a sangheili's abilites in battle. Only worn by the top tier of units in the sangheili military, this helmet sports superb protection from most forms of incoming damage.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>13</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<MaxHitPoints>175</MaxHitPoints>
+			<Mass>1.8</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>50</Plasteel>
+			<Uranium>10</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/UltraHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/UltraHelm/Ultrahelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>SangheiliUltraArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>SangheiliUltraArmor</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorMakeableBaseSang">
+		<defName>UltraArmor</defName>
+		<label>Ultra Armor</label>
+		<techLevel>Spacer</techLevel>
+		<description>Adorned and reinforced, this distinctive armor denoates a true elite of the sangheili military. The design remains in line with the rest of sangheili asthethic, while it's patterns and shape of it plating seperates itself from the rest.</description>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>SangArmor</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>13</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>50000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.85</ArmorRating_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Apparel</li>
+		</thingCategories>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>175</Plasteel>
+			<Uranium>25</Uranium>
+		</costList>
+		<graphicData>
+			<texPath>Apparel/Ground/Ultra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/UltraArmor/ULTA</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>SangheiliUltraArmor</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>SangheiliUltraArmor</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingSetMakerTags>
+		  <li>RewardSpecial</li>
+		</thingSetMakerTags>
+  </ThingDef>
+
+</Defs>
