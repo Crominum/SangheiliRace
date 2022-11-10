@@ -17,6 +17,7 @@
 		<factionIconPath>World/SangheiliBase</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<techLevel>Ultra</techLevel>
+		<maxConfigurableAtWorldCreation>3</maxConfigurableAtWorldCreation>
 		<backstoryCategories>
 		    <li>SangheiliBackstory</li>
 		</backstoryCategories>
@@ -35,8 +36,8 @@
 			<li>Base_Outlander_Standard</li>
 		</baseTraderKinds>
 		<allowedArrivalTemperatureRange>
-			<min>-20</min>
-			<max>45</max>
+			<min>0</min>
+			<max>60</max>
 		</allowedArrivalTemperatureRange>
 		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
 		<raidLootValueFromPointsCurve>

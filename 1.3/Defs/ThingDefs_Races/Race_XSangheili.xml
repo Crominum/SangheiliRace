@@ -166,30 +166,31 @@
         </graphicPaths>
       <styleSettings>
         <li>
-          <key>HairDef</key>
+        	<key>HairDef</key>
             <value>
-              <hasStyle>false</hasStyle>
-              <styleTags>
-              </styleTags>
+            	<hasStyle>true</hasStyle>
+            	<styleTags>
+					<li>NoHair</li>
+            	</styleTags>
             </value>
         </li>
         <li>
-        <key>BeardDef</key>
-        <value>
-            <hasStyle>true</hasStyle>
-            <styleTags>
-                <li>NoBeard</li>
-            </styleTags>
-        </value>
+        	<key>BeardDef</key>
+        	<value>
+            	<hasStyle>true</hasStyle>
+            	<styleTags>
+                	<li>NoBeard</li>
+            	</styleTags>
+        	</value>
         </li>
         <li>
-        <key>TattooDef</key>
-        <value>
-            <hasStyle>true</hasStyle>
-            <styleTags>
-                <li>NoTattoo</li>
-            </styleTags>
-        </value>
+        	<key>TattooDef</key>
+        	<value>
+            	<hasStyle>true</hasStyle>
+            	<styleTags>
+                	<li>NoTattoo</li>
+            	</styleTags>
+        	</value>
         </li>
         </styleSettings>
         <relationSettings>
