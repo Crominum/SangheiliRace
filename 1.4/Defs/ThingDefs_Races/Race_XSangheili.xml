@@ -360,16 +360,16 @@
       </specialShadowData>
 	  <ageGenerationCurve>
         <points>
-    		<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
-    		<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,30)</li>
-    		<li MayRequire="Ludeon.RimWorld.Biotech">(8,50)</li>
-    		<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,70)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
-    		<li>(14,0)</li>
-    		<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,90)</li>
-        	<li>(25,50)</li>
-        	<li>(100,30)</li>
-			<li>(125,5)</li>
-			<li>(150,0)</li>
+          <li>(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,30)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,50)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,70)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,90)</li>
+          <li>(25,50)</li>
+          <li>(100,30)</li>
+          <li>(125,5)</li>
+          <li>(150,0)</li>
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>
