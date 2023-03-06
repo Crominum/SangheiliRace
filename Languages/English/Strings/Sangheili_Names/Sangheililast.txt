@@ -1,7 +1,7 @@
 Vadam
 Volir
 Mdama
-VolirTelcam
+Telcam
 Chavamee
 Moramee
 Refumee
@@ -45,7 +45,7 @@ Suzamee
 Gafumai
 Krahom
 Nragamai
-MatanLofumee
+Lofumee
 Takamai
 Dragramee
 'Quitonm

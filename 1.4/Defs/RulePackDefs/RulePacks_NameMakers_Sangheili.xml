@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <RulePackDef>
+  <!--<RulePackDef>
     <defName>NamerSangheili</defName>
     <rulePack>
       <rulesStrings>
@@ -9,20 +9,49 @@
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
-          <keyword>pack1</keyword>
-          <path>Sangheili_Names/Sangheili</path>
+          <keyword>Sangheili_Name_Male</keyword>
+          <path>Sangheili_Names/SangheiliMale</path>
         </li>
         <li Class="Rule_File">
-          <keyword>pack2</keyword>
+          <keyword>Sangheili_Name_Female</keyword>
+          <path>Sangheili_Names/SangheiliFemale</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Sangheili_Name_Last</keyword>
           <path>Sangheili_Names/Sangheililast</path>
         </li>
       </rulesRaw>
     </rulePack>
-  </RulePackDef>
+  </RulePackDef> -->
+	
+	<RulePackDef>
+		<defName>NamerSangheiliMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[SangheiliNameMale] [SangheiliNameLast]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>SangheiliNameMale->Sangheili_Names/SangheiliMale</li>
+				<li>SangheiliNameLast->Sangheili_Names/Sangheililast</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+  <RulePackDef>
+		<defName>NamerSangheiliFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[SangheiliNameFemale] [SangheiliNameLast]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>SangheiliNameFemale->Sangheili_Names/SangheiliFemale</li>
+				<li>SangheiliNameLast->Sangheili_Names/Sangheililast</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
 
   <!-- Deity Name Maker -->
 
-  	<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+  	<!--<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>NamerDeitySangheili</defName>
     <include>
         <li>NamerDeityGlobal</li>
@@ -35,52 +64,35 @@
 				<li>SangheiliNameDeity->Sangheili_Names/DeitySangheili</li>
 			</rulesFiles>
 		</rulePack>
-	</RulePackDef>
+	  </RulePackDef>-->
 
 
- <!-- <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
-    <defName>NamerDeitySangheili2</defName>
+ <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>NamerDeitySangheili</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[syl]</li>
-
-        <li>syl->Redemption</li>
-        <li>syl->Hopeful Legacy</li>
-        <li>syl->Desire</li>
-        <li>syl->Intricate Design</li>
-        <li>syl->Renewed Faith</li>
-        <li>syl->Infinite Knowledge</li>
-        <li>syl->Eternal Happiness</li>
-        <li>syl->Twisted Fate</li>
-        <li>syl->Lost Vision</li>
-        <li>syl->Judgment</li>
-        <li>syl->Floating Worlds</li>
-        <li>syl->Curiosity</li>
-        <li>syl->Clarity and Purity</li>
-        <li>syl->Planetary Life</li>
-        <li>syl->Will and Might</li>
-        <li>syl->Past Legacy</li>
-        <li>syl->Stability and Balance</li>
-        <li>syl->Prominence</li>
-        <li>syl->Eternal Knowledge</li>
-        <li>syl->Reflection and Retrospection</li>
-        <li>syl->Reborn Planet</li>
-
+        <li>r_deityName->[sangdeity]</li>
       </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>sangdeity</keyword>
+          <path>Sangheili_Names/DeitySangheili</path>
+        </li>
+      </rulesRaw>
     </rulePack>
-  </RulePackDef> --> 
+  </RulePackDef>
 
   <!-- Deity Type -->
 
-  <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+  <!--<RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
 		<defName>DeityTypeMakerSangheili</defName>
 		<include>
 			<li>DeityTypeMakerGlobal</li>
 		</include>
-	</RulePackDef>
+	</RulePackDef> -->
 
- <!--<RulePackDef>
-    <defName>DeityTypeMakerSangheiliG</defName>
+ <RulePackDef>
+    <defName>DeityTypeMakerSangheili</defName>
     <include>
       <li>GlobalUtility</li>
     </include>
@@ -100,10 +112,30 @@
         <li>god->Ambition</li>
         <li>god->Gift</li>
 		    <li>god->Divinity</li>
+        <li>god->Redemption</li>
+        <li>god->Hopeful Legacy</li>
+        <li>god->Desire</li>
+        <li>god->Intricate Design</li>
+        <li>god->Renewed Faith</li>
+        <li>god->Infinite Knowledge</li>
+        <li>god->Eternal Happiness</li>
+        <li>god->Twisted Fate</li>
+        <li>god->Lost Vision</li>
+        <li>god->Judgment</li>
+        <li>god->Floating Worlds</li>
+        <li>god->Curiosity</li>
+        <li>god->Clarity</li>
+        <li>god->Purity</li>
+        <li>god->Planetary Life</li>
+        <li>god->Will and Might</li>
+        <li>god->Past Legacy</li>
+        <li>god->Prominence</li>
+        <li>god->Eternal Knowledge</li>
+        <li>god->Reborn Planet</li>
 
       </rulesStrings>
     </rulePack>
-  </RulePackDef> --> 
+  </RulePackDef>
 
   <!-- Culture-specific content -->
 

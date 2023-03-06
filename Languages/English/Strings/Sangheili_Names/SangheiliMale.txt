@@ -1,7 +1,3 @@
-Suza
-Lepa
-Seda
-Era
 Vykan
 Lasze
 Gysan
@@ -17,20 +13,14 @@ Latan
 Zytan
 Rtul
 Los
-Kiza
-Tyka
 Bido
 Kyvo
-Khavu
 Fore
 Thotan
 Fuvu
 Zuko
 Ryze
-Thyla
 Cil
-Thega
-N'thysa
 Cere
 Eta
 Tuvu
@@ -42,7 +32,6 @@ Ripa
 Rtas
 Thel
 Let
-Fal
 Xytan
 Sesa
 Merg

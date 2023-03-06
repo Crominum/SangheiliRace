@@ -6,7 +6,8 @@
   <PawnKindDef Name="SangheiliBase" Abstract="True">
     <defaultFactionType>SangheiliFaction</defaultFactionType>
     <race>Alien_Sangheili</race>
-
+    <nameMaker>NamerSangheiliMale</nameMaker>
+    <nameMakerFemale>NamerSangheiliFemale</nameMakerFemale>
     <backstoryFilters>
       <li>
         <categories>
@@ -70,7 +71,7 @@
 	  <li>SimpleGun</li>
       <li>NonNeolithicOnlyMelee</li>
       <li>MedievalMeleeBasic</li>
-	  <li>Covenant_PlasmaPistol</li>
+	    <li>Covenant_PlasmaPistol</li>
     </weaponTags>
 	<apparelTags>
 	    <li>Outlander</li>

@@ -20,7 +20,9 @@
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
-		
+		<allowedCultures>
+			<li>SangheiliCulture</li>
+		</allowedCultures>
 		<techLevel>Spacer</techLevel>
 
 		<backstoryFilters>

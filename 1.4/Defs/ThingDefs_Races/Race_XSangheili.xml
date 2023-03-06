@@ -228,6 +228,13 @@
         <li>Apparel_CrownStellic</li>
         <li>Apparel_Tuque</li>
       </blackApparelList>
+      <blackEndoCategories>
+        <li>Melanin</li>
+      </blackEndoCategories>
+      <blackGeneTags>
+        <li>SkinColor</li>
+        <li>SkinColorOverride</li>
+      </blackGeneTags>
 			<researchList>
 				<li>
 					<projects>
@@ -316,8 +323,8 @@
         <makesFootprints>true</makesFootprints>
         <lifeExpectancy>150</lifeExpectancy>
         <leatherDef>Leather_Sangheili</leatherDef>
-	      <nameGenerator>NamerSangheili</nameGenerator>
-        <nameGeneratorFemale>NamerSangheili</nameGeneratorFemale> 
+	      <nameGenerator>NamerSangheiliMale</nameGenerator>
+        <nameGeneratorFemale>NamerSangheiliFemale</nameGeneratorFemale> 
         <body>Sangheili</body>
         <bloodDef>FilthBloodSangheili</bloodDef>	
         <meatColor>(40, 16, 81)</meatColor>
