@@ -131,9 +131,64 @@
     				</second>
 					</li>
 				</colorChannels>
+        <anchorReplacements>
+          <li>
+            <originalTag>LeftEye</originalTag>
+            <originalGroup>Torso</originalGroup>
+              <replacement>
+                <rotation>West</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <offset>(-0.2, 0, 0.08)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+          </li>
+          <li>
+            <originalTag>LeftEye</originalTag>
+            <originalGroup>Torso</originalGroup>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <offset>(0.12, 0, 0)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+          </li>
+          <li>
+            <originalTag>RightEye</originalTag>
+            <originalGroup>Torso</originalGroup>
+              <replacement>
+                <rotation>East</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <offset>(0.2, 0, 0.08)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+          </li>
+          <li>
+            <originalTag>RightEye</originalTag>
+            <originalGroup>Torso</originalGroup>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <offset>(-0.12, 0, 0)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0,0,0,1)</debugColor>
+              </replacement>
+          </li>
+        </anchorReplacements>
         </alienPartGenerator>
             <humanRecipeImport>true</humanRecipeImport>
 			  <maxDamageForSocialfight>10</maxDamageForSocialfight>
+        
       <!--  <femaleFertilityAgeFactor>
           <points>
           <li>(14, 0)</li>
@@ -156,10 +211,10 @@
       </generalSettings>
         <graphicPaths>
                 <skinShader>Cutout</skinShader>
-                <head>Things/Pawn/Humanlike/Sangheili/Head/</head>
-				        <body>Things/Pawn/Humanlike/Sangheili/Body/</body>
+                <head>Things/Sangheili/Head/</head>
+				        <body>Things/Sangheili/Body/</body>
         </graphicPaths>
-      <styleSettings>
+        <styleSettings>
         <li>
           <key>HairDef</key>
             <value>
@@ -328,6 +383,7 @@
         <body>Sangheili</body>
         <bloodDef>FilthBloodSangheili</bloodDef>	
         <meatColor>(40, 16, 81)</meatColor>
+        <fleshType>Sangheili</fleshType>
         <baseBodySize>1.3</baseBodySize>
         <baseHealthScale>1.5</baseHealthScale>
         <foodType>OmnivoreHuman</foodType>
