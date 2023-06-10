@@ -5,7 +5,7 @@
     <defName>Sangheili_Hair_Blank</defName>
     <label>no hair</label>
     <hairGender>Any</hairGender>
-    <texPath>Things/Pawn/Humanlike/Hairs/HairBlank</texPath>
+    <texPath>Things/Sangheili/Hairs/HairBlank</texPath>
 		<hairTags>
 			<li>SangheiliHair</li>
 		</hairTags>

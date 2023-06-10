@@ -6,7 +6,7 @@
     <label>Sangheili</label>
     <description>A developing and shifting culture of post Great Schism events.</description>
     <pawnNameMaker>NamerSangheiliMale</pawnNameMaker>
-      <pawnNameMakerFemale>NamerSangheiliFemale</pawnNameMakerFemale>
+    <pawnNameMakerFemale>NamerSangheiliFemale</pawnNameMakerFemale>
     <iconPath>World/WorldObjects/Expanding/Village</iconPath>
     <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>

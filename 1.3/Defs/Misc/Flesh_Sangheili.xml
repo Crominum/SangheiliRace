@@ -9,16 +9,13 @@
 	<damageEffecter>Damage_HitFlesh</damageEffecter>
     <genericWounds>
       <li>
-        <texture>Things/Pawn/Wounds/WoundA</texture>
-        <color>40,16,81</color>
+        <texture>Things/Sangheili/Wounds/WoundA</texture>
       </li>
       <li>
-        <texture>Things/Pawn/Wounds/WoundB</texture>
-        <color>39,15,85</color>
+        <texture>Things/Sangheili/Wounds/WoundB</texture>
       </li>
       <li>
-        <texture>Things/Pawn/Wounds/WoundC</texture>
-        <color>0, 0, 0</color>
+        <texture>Things/Sangheili/Wounds/WoundC</texture>
       </li>
     </genericWounds>
 	<bandagedWounds>
