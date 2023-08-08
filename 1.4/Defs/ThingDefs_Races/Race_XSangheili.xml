@@ -43,6 +43,7 @@
 					          <li>Hulk</li>
 					          <li>Female</li>
 					          <li>Male</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                 </bodyTypes>
 				<customDrawSize>(1.25, 1.25)</customDrawSize>
 				<customHeadDrawSize>(1.10, 1.10)</customHeadDrawSize>
@@ -211,7 +212,9 @@
       </generalSettings>
         <graphicPaths>
                 <skinShader>Cutout</skinShader>
-                <head>Things/Sangheili/Head/</head>
+                <head>
+                <path>Things/Sangheili/Head/</path>
+                </head>
 				        <body>Things/Sangheili/Body/</body>
         </graphicPaths>
         <styleSettings>
@@ -398,11 +401,11 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>FirstbornSangheiliStage</def>
+          <def>HumanlikeBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>YoungSangheiliStage</def>
+          <def>HumanlikeChild</def>
           <minAge>4</minAge>
         </li>
 		      <li>
