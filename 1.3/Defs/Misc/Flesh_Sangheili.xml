@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FleshTypeDef>
+    <defName>Sangheili</defName>
+	<ateDirect>AteHumanlikeMeatDirect</ateDirect>
+	<ateAsIngredient>AteHumanlikeMeatAsIngredient</ateAsIngredient>
+	<corpseCategory>CorpsesHumanlike</corpseCategory>
+	<damageEffecter>Damage_HitFlesh</damageEffecter>
+    <genericWounds>
+      <li>
+        <texture>Things/Sangheili/Wounds/WoundA</texture>
+      </li>
+      <li>
+        <texture>Things/Sangheili/Wounds/WoundB</texture>
+      </li>
+      <li>
+        <texture>Things/Sangheili/Wounds/WoundC</texture>
+      </li>
+    </genericWounds>
+	<bandagedWounds>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedA</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedB</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedC</texture>
+      </li>
+    </bandagedWounds>
+    <hediffWounds>
+      <li  MayRequire="Ludeon.RimWorld.Ideology">
+        <hediff>Scarification</hediff>
+        <wounds>
+          <li>
+            <texture>Things/Pawn/Wounds/ScarificationA</texture>
+            <tintWithSkinColor>true</tintWithSkinColor>
+            <displayOverApparel>false</displayOverApparel>
+            <displayPermanent>false</displayPermanent>
+          </li>
+          <li>
+            <texture>Things/Pawn/Wounds/ScarificationB</texture>
+            <tintWithSkinColor>true</tintWithSkinColor>
+            <displayOverApparel>false</displayOverApparel>
+            <displayPermanent>false</displayPermanent>
+          </li>
+          <li>
+            <texture>Things/Pawn/Wounds/ScarificationC</texture>
+            <tintWithSkinColor>true</tintWithSkinColor>
+            <displayOverApparel>false</displayOverApparel>
+            <displayPermanent>false</displayPermanent>
+          </li>
+        </wounds>
+      </li>
+    </hediffWounds>
+  </FleshTypeDef>
+</Defs>

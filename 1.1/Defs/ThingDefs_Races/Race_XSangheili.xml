@@ -59,8 +59,8 @@
             <alienPartGenerator>
                 <aliencrowntypes>
                     <li>Average_Normal</li>
-					<li>Average_Bulky</li>
-					<li>Average_Other</li>
+					<li>Average_Wide</li>
+					<li>Average_Pointy</li>
                 </aliencrowntypes>
                 <alienbodytypes>
 					<li>Hulk</li>
@@ -171,8 +171,8 @@
         </generalSettings>
         <graphicPaths>
             <li>
-                <head>Things/Pawn/Humanlike/Sangheili/Head/</head>
-				<body>Things/Pawn/Humanlike/Sangheili/Body/</body>
+                <head>Things/Sangheili/Head/</head>
+				        <body>Things/Sangheili/Body/</body>
             </li>
         </graphicPaths>
         <hairSettings>

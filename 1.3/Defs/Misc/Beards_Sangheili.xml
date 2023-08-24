@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BeardDef>
+    <defName>Sangheili_Beard_Blank</defName>
+    <label>SangheiliBeard</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Mote/Transparent</texPath>
+    <iconPath>Things/Mote/Transparent</iconPath>
+		<styleTags>
+			<li>SangheiliBeard</li>
+		</styleTags>
+  </BeardDef>		
+		
+  <BeardDef>		
+	<defName>Sangheili_Beard_BlankTwo</defName>
+		<label>SangheiliBeardTwo</label>
+		<styleGender>Any</styleGender>
+    <texPath>Things/Mote/Transparent</texPath>
+    <iconPath>Things/Mote/Transparent</iconPath>
+		<styleTags>
+			<li>SangheiliBeard</li>
+		</styleTags>
+  </BeardDef>
+ 
+</Defs>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef Abstract="True" Name="SangheiliFactionBase">
+		<colorSpectrum>
+		    <li>(0, 0.737, 0.847)</li>
+		</colorSpectrum>
+	</FactionDef>
+  
+	<FactionDef Parent="SangheiliFactionBase">
+		<defName>SangheiliPlayerColony</defName>
+		<label>Sangheili Colony</label>
+		<description>Your own community.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Sangheili</basicMemberKind>
+		
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<allowedCultures>
+			<li>SangheiliCulture</li>
+		</allowedCultures>
+		<techLevel>Spacer</techLevel>
+
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>SangheiliBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		
+		<settlementTexturePath>World/SangheiliBase</settlementTexturePath>
+		<factionIconPath>World/SangheiliBase</factionIconPath>
+		
+		<melaninRange>1</melaninRange>
+		<raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+		<raidLootValueFromPointsCurve>
+		  <points>
+			<li>(35,     15)</li>
+			<li>(100,   120)</li>
+			<li>(1000,  500)</li>
+			<li>(2000,  800)</li>
+			<li>(4000, 1000)</li>
+		  </points>
+		</raidLootValueFromPointsCurve>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+
+	</FactionDef>
+  
+</Defs>

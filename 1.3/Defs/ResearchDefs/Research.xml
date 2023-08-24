@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>Sangheili</defName>
+		<label>Sangheili Tech</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef>
+		<defName>SangArmor</defName>
+		<label>Sangheili Armor</label>
+		<tab>Sangheili</tab>
+		<techLevel>Spacer</techLevel>
+		<description>Build high tech armor that is form fitted to sangheilis, styled after the various ranks held within their armies. Note: These armors do not fit on humans per their differing body structure.</description>
+		<baseCost>6000</baseCost>
+		<prerequisites>
+			<li>PoweredArmor</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>
