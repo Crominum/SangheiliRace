@@ -132,7 +132,7 @@
     				</second>
 					</li>
 				</colorChannels>
-        <!-- <anchorReplacements>
+        <anchorReplacements>
           <li>
             <originalTag>LeftEye</originalTag>
             <originalGroup>Torso</originalGroup>
@@ -186,7 +186,7 @@
               </replacement>
           </li>
         </anchorReplacements>
-		-->
+		
         </alienPartGenerator>
             <humanRecipeImport>true</humanRecipeImport>
 			  <maxDamageForSocialfight>10</maxDamageForSocialfight>
