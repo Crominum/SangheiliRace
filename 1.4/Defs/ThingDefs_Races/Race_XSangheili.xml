@@ -32,17 +32,17 @@
 			
             <alienPartGenerator>
                 <headTypes Inherit="False">
-                    <li>Female_AverageNormal</li>
-					          <li>Female_AverageWide</li>
-					          <li>Female_AveragePointy</li>
-					          <li>Male_AverageNormal</li>
-					          <li>Male_AverageWide</li>
-					          <li>Male_AveragePointy</li>
+					<li>Female_AverageNormal</li>
+					<li>Female_AverageWide</li>
+					<li>Female_AveragePointy</li>
+					<li>Male_AverageNormal</li>
+					<li>Male_AverageWide</li>
+					<li>Male_AveragePointy</li>
                 </headTypes>
                 <bodyTypes>
-					          <li>Hulk</li>
-					          <li>Female</li>
-					          <li>Male</li>
+					<li>Hulk</li>
+					<li>Female</li>
+					<li>Male</li>
                     <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                 </bodyTypes>
 				<customDrawSize>(1.25, 1.25)</customDrawSize>
@@ -132,7 +132,7 @@
     				</second>
 					</li>
 				</colorChannels>
-        <anchorReplacements>
+        <!-- <anchorReplacements>
           <li>
             <originalTag>LeftEye</originalTag>
             <originalGroup>Torso</originalGroup>
@@ -186,6 +186,7 @@
               </replacement>
           </li>
         </anchorReplacements>
+		-->
         </alienPartGenerator>
             <humanRecipeImport>true</humanRecipeImport>
 			  <maxDamageForSocialfight>10</maxDamageForSocialfight>
@@ -211,11 +212,52 @@
         </maleFertilityAgeFactor> -->
       </generalSettings>
         <graphicPaths>
-                <skinShader>Cutout</skinShader>
-                <head>
-                <path>Things/Sangheili/Head/</path>
-                </head>
-				        <body>Things/Sangheili/Body/</body>
+			<skinShader>Cutout</skinShader>
+            <head>
+				<path>Things/Sangheili/Head/</path>
+				<ageGraphics>
+					<HumanlikeChild>Things/Sangheili/Head/Child</HumanlikeChild>
+				</ageGraphics>
+				<headtypeGraphics>
+					<Male_AverageNormal>Things/Sangheili/Head/Male_Average_Normal</Male_AverageNormal>
+					<Male_AverageWide>Things/Sangheili/Head/Male_Average_Wide</Male_AverageWide>
+					<Male_AveragePointy>Things/Sangheili/Head/Male_Average_Pointy</Male_AveragePointy>
+					<Female_AverageNormal>Things/Sangheili/Head/Female_Average_Normal</Female_AverageNormal>
+					<Female_AverageWide>Things/Sangheili/Head/Female_Average_Wide</Female_AverageWide>
+					<Female_AveragePointy>Things/Sangheili/Head/Female_Average_Pointy</Female_AveragePointy>
+				</headtypeGraphics>
+			<prioritization>
+				<li>Age</li>
+				<li>Bodytype</li>
+				<li>Headtype</li>
+				<li>Gender</li>
+			</prioritization>
+            </head>
+			<body>
+				<path>Things/Sangheili/Body/</path>
+				<ageGraphics>
+					<HumanlikeChild>Things/Sangheili/Body/Naked_Child</HumanlikeChild>
+				</ageGraphics>
+				<bodytypeGraphics>
+					<Hulk>
+						<path>Things/Sangheili/Body/Naked_Hulk</path>
+					</Hulk>
+				</bodytypeGraphics>
+				<genderGraphics>
+					<Male>
+						<path>Things/Sangheili/Body/Naked_Male</path>
+					</Male>
+					<Female>
+						<path>Things/Sangheili/Body/Naked_Female</path>
+					</Female>
+				</genderGraphics>
+			<prioritization>
+				<li>Age</li>
+				<li>Bodytype</li>
+				<li>Headtype</li>
+				<li>Gender</li>
+			</prioritization>
+			</body>
         </graphicPaths>
         <styleSettings>
         <li>
@@ -408,14 +450,14 @@
           <def>HumanlikeChild</def>
           <minAge>4</minAge>
         </li>
-		      <li>
-            <def>TeenSangheiliStage</def>
-            <minAge>10</minAge>
-          </li>
-          <li>
-            <def>AdultSangheiliStage</def>
-            <minAge>25</minAge>
-          </li>
+		<li>
+           <def>TeenSangheiliStage</def>
+           <minAge>10</minAge>
+        </li>
+        <li>
+			<def>AdultSangheiliStage</def>
+			<minAge>25</minAge>
+        </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
@@ -426,13 +468,14 @@
       </specialShadowData>
 	  <ageGenerationCurve>
         <points>
-          <li>(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,30)</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">(8,50)</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,70)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
           <li>(14,0)</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,90)</li>
           <li>(25,50)</li>
+		  <li>(75,100)</li>
           <li>(100,30)</li>
           <li>(125,5)</li>
           <li>(150,0)</li>
